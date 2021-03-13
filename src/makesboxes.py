@@ -1,5 +1,5 @@
 """Notes from Elissa ~
-Generate the code for the checkboxes - it's the best fix. 
+Generate the code for the checkboxes - it's the best fix I could come up with. 
 Perhaps Deren or another student can help you organize this better or somehow get the 
 program itself to generate and insert the code into streamlit.py app, but until then, 
 	this at least gives you something to work with
