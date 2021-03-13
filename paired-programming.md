@@ -13,13 +13,13 @@ Dependencies:
 - `pandas`: data will largely be manipulated as pandas sataframes
 - `numpy`: for calculations
 - `random`: for plotting
-- `os`: for file 
+- `os`: for file navigation
 
 Code:
-- seedcount.py: ...
-- streamlitapp.py: code that runs the streamlit webapp
-- app.py: this would have run your heroku app, but I think streamlit will do everythign you need without heroku
-- makesboxes.py: this is a piece of code I wrote to generate the code that will create a list of species checkboxes on your `streamlit` app for the user to choose from. I believe you will be able to make `streamlit` display it nicely into 3-4 columns so it's not just one giant list. This code also keeps track of the user choices and write them to a `userchoices` list object.
+- `seedcount.py`: calculations
+- `streamlitapp.py`: code that runs the streamlit webapp
+- `app.py`: this would have run your heroku app, but I think streamlit will do everythign you need without heroku
+- `makesboxes.py`: this is a piece of code I wrote to generate the code that will create a list of species checkboxes on your `streamlit` app for the user to choose from. I believe you will be able to make `streamlit` display it nicely into 3-4 columns so it's not just one giant list. This code also keeps track of the user choices and write them to a `userchoices` list object.
 
 *Note:* I think you may be able to have one .py file that is the one called by streamlit and all your calculations happen inside of it. 
 
@@ -43,7 +43,7 @@ Function suggestions: see above
 ## Code Constributions & Ideas
 You're off to a great start here. It's hard to organize code when working with a new app like `streamlit` because you're learning as you go. I'm not sure what the best way to organize this code is, but I think you'll probably want to do everything in the same file that runs your streamlit app. I did not put functions into `streamlitapp.py` because I was just testing code, but I think it should be straightforward to just drop all your functions/class objects into it. 
 
-I tested all my code (except the `streamlit` stuff) in a Jupyter Notebook and I have uplaoded that notebook so you can reference it. 
+I tested all my code (except the `streamlit` stuff) in a Jupyter Notebook and I have uploaded that notebook so you can reference it. 
 
 I ended up writing a new file `streamlitapp.py` to test out `streamlit` code, since I couldn't test it in my Jupyter Notebook. Everytime you save the file you just need to refresh the browser running the app to see the changes. The code I wrote here does the following:
 1. reads in your data from .csv files and does some cleaning/data-wrangling
