@@ -1,4 +1,4 @@
-# Paired-Programming oon `seedcount`
+# Paired-Programming on `seedcount`
 
 ## Goal of the project: 
 
@@ -44,8 +44,6 @@ Function suggestions: see above
 You're off to a great start here. It's hard to organize code when working with a new app like `streamlit` because you're learning as you go. I'm not sure what the best way to organize this code is, but I think you'll probably want to do everything in the same file that runs your streamlit app. I did not put functions into `streamlitapp.py` because I was just testing code, but I think it should be straightforward to just drop all your functions/class objects into it. 
 
 I tested all my code (except the `streamlit` stuff) in a Jupyter Notebook and I have uplaoded that notebook so you can reference it. 
-
-- 
 
 I ended up writing a new file `streamlitapp.py` to test out `streamlit` code, since I couldn't test it in my Jupyter Notebook. Everytime you save the file you just need to refresh the browser running the app to see the changes. The code I wrote here does the following:
 1. reads in your data from .csv files and does some cleaning/data-wrangling
