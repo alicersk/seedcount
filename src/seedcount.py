@@ -6,6 +6,9 @@ import toyplot
 import streamlit as st
 import os.path
 
+#the csv with the source data
+df = pd.read_csv(os.path.abspath("seedcount/src/SEEDS.csv")
+df.index_col="Latin Name"
 
 @st.cache
 class Seeds:
@@ -42,16 +45,14 @@ class Seeds:
                 if species not in Speciesinput:
                     Speciesinput[species]=plantsper
             
-            #the csv with the source data
-            df = pd.read_csv(os.path.abspath("seedcount/src/SEEDS.csv")
-            df.index_col="Latin Name"
+            
             #making a data frame by selecting rows of the source data based on which species were selected.
             #what I'm not sure how to do is how to also include a column from the inputted plantsper values (which represent
-            #plants per meter squared)
-            pd.concat(Speciesinput.values(), seeddf)
+            #plants per meter squared) SWITCH TO FASTAPI??
+            
             seeddf = df.loc[[Speciesinput.keys], ["Latin Name", "Alternate Latin Name", "Common Name", "Seeds/lb", "GerminationRate", "Forb", "Fall Seeding Req"]]
             pd.concat(seeddf, Speciesinput, axis="Latin Name")
-
+            
             #These calculation takes us from the inputted values to values that can be purchased. 
             #plants per square meter * square meters to acres conversion / germination rate * seeds per pound = 
             #how many seeds per pound you need per acre to get the number of plants desired per square meter
