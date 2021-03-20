@@ -15,8 +15,8 @@ class Seeds:
     def __init__(self, species=None, plantsper=None):
         
         # store input params
-        self.species = species
-        self.plantsper = plantsper
+        self.species = species          #latin name
+        self.plantsper = plantsper      #plants per square meter
         
         # will be used to store output results
         self.seeddf = None
@@ -28,7 +28,7 @@ class Seeds:
         """
         chart = (
             pass
-    )
+        )
         
         st.toyplot_chart(chart, use_container_width=True)
 
@@ -73,7 +73,7 @@ class Seeds:
             #This will show the output table on streamlit using st.write, and return the csv somehow
             seeddf.set_index("Latin Name")
                 st.write("### Purchase List", seeddf.sort_index())
-            return pd.write_csv(seeddf)
+                return pd.write_csv(seeddf)
 
         except pd.error as e:
             st.error(
