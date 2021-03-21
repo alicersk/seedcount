@@ -6,11 +6,13 @@ import random
 import altair as alt
 
 
-#To run, paste into terminal: streamlit run streamlitapp.py
+#To run, paste into terminal: streamlit run seedcount.py
 
 """
 # Seed Count
-Here are all the species you have to choose from!
+Here are all the species you have to choose from! 
+Please enter the number of plants per square meter you'd like to see for each species you select.
+I'm sorry, there is a lot of scrolling involved right now. The fun stuff is way at the bottom.
 """
 
 #create empty dictionary to store choices
