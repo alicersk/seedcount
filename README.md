@@ -5,9 +5,9 @@ Seedcount will serve as a design tool for Mid-Atlantic Native seed mix design fo
 See below for instructions on how to install the code to expand it.
 
 ```
-conda install numpy pandas streamlit toyplot  -c conda-forge 
+conda install pandas streamlit -c conda-forge 
 
 git clone https://github.com/alicersk/seedcount
-cd ./seedcount
-pip install -e 
+cd ./seedcount/src
+streamlit run seedcount.py
 ```
