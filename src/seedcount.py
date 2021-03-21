@@ -4,7 +4,7 @@ import streamlit as st
 import pandas as pd
 import random
 import altair as alt
-import os.path
+
 
 #To run, paste into terminal: streamlit run streamlitapp.py
 
