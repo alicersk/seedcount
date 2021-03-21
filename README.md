@@ -11,3 +11,4 @@ git clone https://github.com/alicersk/seedcount
 cd ./seedcount/src
 streamlit run seedcount.py
 ```
+Once the streamlit app has launched, select some plant species to get started. 
