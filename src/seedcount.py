@@ -28,16 +28,23 @@ def alphabet_choosing(letter):
 	return a1
 
 #Sidebar for selecting alphabet
-add_label = st.sidebar.selectbox("Choose an alphabet",('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'))
+add_label = st.sidebar.selectbox("Choose an alphabet",('ALL','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'))
 
 #Alphabetical selections
-chosen_alphabet = alphabet_choosing(add_label)
+if add_label == "ALL":
+	chosen_alphabet = labeled_data
+else:
+	chosen_alphabet = alphabet_choosing(add_label)
 
+
+count = 0
 #Displaying the options to 
 for x in chosen_alphabet['species']:
-	options = st.number_input(x,min_value=0, max_value=500, step=1)
-	if options:
-		usrchoices[x] = options
+	unique_key = x + str (count)
+	options = st.number_input(x,min_value=0, max_value=500, step=1, key=unique_key)
+	count +=1
+if options:
+	usrchoices[x] = options
 
 
 #make the choices using checkboxes
