@@ -6,4 +6,4 @@ This is a program for assisting in seedmix design.
 
 __version__="0.0.1"
 
-from src.seedcount import Seeds
+from src.seedcount 
