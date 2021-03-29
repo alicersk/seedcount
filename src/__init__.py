@@ -4,6 +4,4 @@
 This is a program for assisting in seedmix design. 
 """
 
-__version__="0.0.1"
-
-from src.seedcount 
+__version__ = "0.0.1"
