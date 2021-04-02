@@ -6,12 +6,12 @@ Generate plots of data from Stats using altair
 
 import pandas as pd
 import altair as alt
-
+import random
    
 
 
 
-def generate_plots(data, stats):
+def density_plot(data, stats):
     """
 
     """
@@ -33,7 +33,7 @@ def generate_plots(data, stats):
     x = []
     y = []
     for index, row in choices.iterrows():
-        for i in range (1, row['plants_per_meter']):
+        for i in range (0, row['plants_per_meter']):
             species.append(row["species"])
             common_name.append(row["common_name"])
             x.append(random.uniform(0, 1))
@@ -58,21 +58,70 @@ def generate_plots(data, stats):
     visualizeseeds = alt.Chart(source).mark_point(filled=True, size=100).encode(
         x=alt.X('x', axis=alt.Axis(title='1 meter')),
         y=alt.Y('y', axis=alt.Axis(title='1 meter')),
-        color=alt.Color('bloom_color', legend=None),
+        color=alt.Color(color, legend=None),
         tooltip=['species:N', 'common_name:N'],
     ).add_selection(
         highlight
     ).properties(width=500, height=500)
+    
+    return visualizeseeds
 
-    #call altair chart with streamlit
-    st.altair_chart(visualizeseeds, use_container_width=False)
 
+def seasonality_chart(data, stats):
+    """
+    This function plots number of stems in bloom per square meter in each season to assess aesthetic quality and floral resource abundance.
+    """
+    seeddf=data.subdata
     #define seasonality chart
-    source = pd.DataFrame({'season':["spring", "summer", "fall"], 'number of species in bloom' : [seeddf.spring.sum(), seeddf.summer.sum(), seeddf.autumn.sum()]})
+   
+    choices = seeddf.loc[seeddf['forb'] == 1]
 
-    seasonaldistribution = alt.Chart(source).mark_bar(size=100, color='Green').encode(
+    species=[]
+    season= []
+    color= []
+
+    for index, row in choices.iterrows():
+            for i in range (0, row['plants_per_meter']):
+                color.append(row["bloom_color"])
+                species.append(index)
+                if row["spring"]==1 and row["summer"]==0 and row["autumn"]==0:
+                    season.append("spring")
+                elif row["summer"]==1 and row ["spring"]==0 and row ["autumn"]==0:
+                    season.append("summer")
+                elif row["autumn"]==1 and row ["spring"]==0 and row ["summer"]==0:
+                    season.append("autumn")
+                elif row["spring"]==1 and row ["summer"]==1 and row["autumn"]==1:
+                    season.append("spring")
+                    season.append("summer")
+                    season.append("autumn")
+                    color.append(row["bloom_color"])
+                    color.append(row["bloom_color"])
+                    color.append(row["bloom_color"])
+                    species.append(index)
+                    species.append(index)
+                    species.append(index)
+                elif row["spring"]==1 and row ["summer"]==1 and row["autumn"]==0:
+                    season.append("spring")
+                    season.append("summer")
+                    color.append(row["bloom_color"])
+                    color.append(row["bloom_color"])
+                    species.append(index) 
+                    species.append(index)
+                elif row["spring"]==0 and row ["summer"]==1 and row["autumn"]==1:
+                    season.append("summer")
+                    season.append("autumn")
+                    color.append(row["bloom_color"])
+                    color.append(row["bloom_color"])
+                    species.append(index) 
+                    species.append(index)
+    
+    source = pd.DataFrame((species,season, color), index=None).T
+
+    seasonaldistribution = alt.Chart(source).mark_bar(size=100).encode(
         x="season",
-        y="number of species in bloom",
+        y="species",
+        color="color"
     ).properties(width=500, height=300)
-    #call seasonality chart with streamlit
-    st.altair_chart(seasonaldistribution)    
+
+    return seasonaldistribution
+    
