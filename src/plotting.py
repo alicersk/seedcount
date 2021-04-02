@@ -55,14 +55,19 @@ def density_plot(data, stats):
                           alt.value('lightgray'))
 
     #define the density plot
+    #define the density plot
     visualizeseeds = alt.Chart(source).mark_point(filled=True, size=100).encode(
         x=alt.X('x', axis=alt.Axis(title='1 meter')),
         y=alt.Y('y', axis=alt.Axis(title='1 meter')),
-        color=alt.Color(color, legend=None),
+        color=alt.Color('bloom_color',
+                    scale = alt.Scale(domain=['Blue', 'Yellow', 'Purple', 'White', 'Red', 'Pink', 'Orange', None], range=['#1560BD', '	#FFD300', '#BD33A4', '#FFF8DC', '#B31B1B', '#E4717A', '#ED872D', '#7BB661']),
+                    legend = alt.Legend(title="Legend")
+        ),
         tooltip=['species:N', 'common_name:N'],
     ).add_selection(
         highlight
-    ).properties(width=500, height=500)
+    ).properties(width=600, height=500
+    ).configure(background='#B2BEB5')
     
     return visualizeseeds
 

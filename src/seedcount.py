@@ -111,19 +111,20 @@ source = metercalc
 #interactive highlight function
 highlight = alt.selection(type='single',
                           fields=['species', 'common_name'], empty="all")
-#color
-#color = alt.condition(highlight,
-                      #alt.Color('bloom_color', scale=None),
-                      #alt.value('lightgray'))
 
 #define the density plot
 visualizeseeds = alt.Chart(source).mark_point(filled=True, size=100).encode(
     x=alt.X('x', axis=alt.Axis(title='1 meter')),
     y=alt.Y('y', axis=alt.Axis(title='1 meter')),
+    color=alt.Color('bloom_color',
+                scale = alt.Scale(domain=['Blue', 'Yellow', 'Purple', 'White', 'Red', 'Pink', 'Orange', None], range=['#1560BD', '#FFD300', '#BD33A4', '#FFF8DC', '#B31B1B', '#E4717A', '#ED872D', '#7BB661']),
+                legend = alt.Legend(title="Legend")
+    ),
     tooltip=['species:N', 'common_name:N'],
 ).add_selection(
     highlight
-).properties(width=500, height=500)
+).properties(width=600, height=500
+).configure(background='#B2BEB5')
 
 #call altair chart with streamlit
 st.altair_chart(visualizeseeds, use_container_width=False)
