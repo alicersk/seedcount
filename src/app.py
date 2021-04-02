@@ -7,7 +7,7 @@ To run, paste into terminal: streamlit run seedcount.py
 import streamlit as st
 import pandas as pd
 from processing import SeedData, Stats
-from plotting import generate_plots
+from plotting import density_plot, seasonality_chart
 
 
 # @st.cache()
@@ -106,7 +106,7 @@ def display_warnings(data, stats):
 
     if stats.data.seeds_per_meter.sum() > 1200.0:
         st.warning(
-            "Consider decreasing desired density of plants to maintain "
+            "Consider decreasing desired density of plants to reduce competition and maintain "
             "diversity."
         )
 
@@ -125,17 +125,17 @@ def display_purchase_info(stats):
         "Seed with an equal volume of bulking agent, such as kitty "
         "litter, and an appropiate nurse crop from the list below."
     )
-    st.write("### Here is a visualization of your desired species density:")
+    
 
 
 def display_plot(data, stats):
     """
     Create plots from function in plotting module
-    TODO: more on this...
+    
     """
-    # altchart = generate_plots(data, stats)
-    # st.altchart(altchart)
-
+    st.write("### Here is a visualization of your desired species density:")
+    st.altair_chart(density_plot(data, stats), use_container_width=False)
+    st.altair_chart(seasonality_chart(data, stats), use_container_width=True) 
 
 
 if __name__ == "__main__":
@@ -165,4 +165,5 @@ if __name__ == "__main__":
         display_purchase_info(stats)
 
         # display plots
-        # display_plots(data, stats)
+        display_plot(data, stats) 
+        

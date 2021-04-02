@@ -26,7 +26,7 @@ class SeedData:
 
 class Stats:
     """
-    These calculation takes us from the inputted values to values that 
+    These calculations takes us from the inputted values to values that 
     can be purchased.
     """
     def __init__(self, data):
