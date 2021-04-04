@@ -8,9 +8,10 @@ import streamlit as st
 import pandas as pd
 from processing import SeedData, Stats
 from plotting import density_plot, seasonality_chart
+from downloading import download_link
 
 
-# @st.cache()
+#@st.cache()
 def load_data_once():
     """ only load the data once and cache it """
     return SeedData()
@@ -21,11 +22,11 @@ def write_header():
     st.title("Seed Count")
     st.write((
         "Please begin by selecting your soil moisture level "
-        "and desired species from the sidebar to the left."
+        "and desired plant density (in plants per square meter) from the sidebar to the left."
     ))
 
 
-# @st.cache(suppress_st_warning=True)
+#@st.cache(suppress_st_warning=True)
 def sidebar_moisture_selector(data):
     """ a selector of the moisture type """
     moisture_value = st.sidebar.selectbox(
@@ -42,7 +43,7 @@ def sidebar_moisture_selector(data):
 
 def display_seeds(data):
     """
-    create 
+    record user inputs
     """
     # create input for each spp in subdata
     usrchoices = {}
@@ -111,21 +112,7 @@ def display_warnings(data, stats):
         )
 
 
-def display_purchase_info(stats):
-    """
-    show table and info boxes
-    """
-    st.write("### Purchase List")
-    st.table(stats.purchaselist.sort_index())
-    st.info(
-        "The seeding rate of your mix is **{:.2f} pounds per acre**."
-        .format(stats.data.pounds_per_acre.sum())
-    )
-    st.info(
-        "Seed with an equal volume of bulking agent, such as kitty "
-        "litter, and an appropiate nurse crop from the list below."
-    )
-    
+
 
 
 def display_plot(data, stats):
@@ -135,8 +122,28 @@ def display_plot(data, stats):
     """
     st.write("### Here is a visualization of your desired species density:")
     st.altair_chart(density_plot(data, stats), use_container_width=False)
-    st.altair_chart(seasonality_chart(data, stats), use_container_width=True) 
+    #st.altair_chart(seasonality_chart(data, stats), use_container_width=True) 
+    st.write(seasonality_chart(data,stats))
 
+def display_purchase_info(stats):
+    """
+    show table and info boxes
+    """
+    st.write("### Seed Mix Specification")
+    st.table(stats.purchaselist.sort_index())
+    st.info(
+        "The seeding rate of your mix is **{:.2f} pounds per acre**."
+        .format(stats.data.pounds_per_acre.sum())
+    )
+    st.info(
+        "Spread the seedmix with an equal volume of a bulking agent (non-clumping kitty litter, rice hulls or clean sand),"
+        "and with 25 lbs per acre of common oats (Avena sativa), cereal rye (Secale cereale) or winter wheat (Triticum aestivum)."
+        "Roll or press seeds into soil to ensure good seed-to-soil contact but do not bury. Cover with weed-free wheat or oat straw."
+    )
+    
+    tmp_download_link = download_link(data, stats)
+    st.markdown(tmp_download_link, unsafe_allow_html=True)
+        
 
 if __name__ == "__main__":
     
@@ -161,9 +168,9 @@ if __name__ == "__main__":
         # Display warnings
         display_warnings(data, stats)
 
-        # Display purchase list info
-        display_purchase_info(stats)
-
         # display plots
         display_plot(data, stats) 
+
+        # Display purchase list info
+        display_purchase_info(stats)
         
