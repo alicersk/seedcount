@@ -73,7 +73,7 @@ class Stats:
         # It's customary to include percent by weight as well to help 
         # scale the mix up or down from an acre
         self.data["percent_by_weight"] = (
-            self.data.pounds_per_acre / self.data.pounds_per_acre.sum()
+            self.data.pounds_per_acre / self.data.pounds_per_acre.sum()*100
         )
 
         self.data["seeds_per_meter"] = (

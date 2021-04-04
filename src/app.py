@@ -43,7 +43,7 @@ def sidebar_moisture_selector(data):
 
 def display_seeds(data):
     """
-    record user inputs
+    record and display user selections
     """
     # create input for each spp in subdata
     usrchoices = {}
@@ -136,8 +136,8 @@ def display_purchase_info(stats):
         .format(stats.data.pounds_per_acre.sum())
     )
     st.info(
-        "Spread the seedmix with an equal volume of a bulking agent (non-clumping kitty litter, rice hulls or clean sand),"
-        "and with 25 lbs per acre of common oats (Avena sativa), cereal rye (Secale cereale) or winter wheat (Triticum aestivum)."
+        "Spread the seedmix with an equal volume of a bulking agent (non-clumping kitty litter, rice hulls or clean sand), "
+        "and with 25 lbs per acre of common oats (Avena sativa), cereal rye (Secale cereale) or winter wheat (Triticum aestivum). "
         "Roll or press seeds into soil to ensure good seed-to-soil contact but do not bury. Cover with weed-free wheat or oat straw."
     )
     
