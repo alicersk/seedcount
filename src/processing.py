@@ -36,6 +36,7 @@ class Stats:
         self.data = pd.DataFrame(
             index=data.subdata.index,
             columns=[
+                "common_name",
                 "plants_per_meter",
                 "seeds_per_lb",
                 "germ_rate",
@@ -46,6 +47,7 @@ class Stats:
         )
 
         # existing data
+        self.data.common_name=data.subdata.common_name
         self.data.plants_per_meter = data.subdata.plants_per_meter
         self.data.seeds_per_lb = data.subdata.seeds_per_lb
         self.data.germ_rate = data.subdata.germ_rate
