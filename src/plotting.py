@@ -7,9 +7,12 @@ Generate plots of data from Stats using altair
 import pandas as pd
 import altair as alt
 import random
-   
+import numpy as np  
 
-
+color=alt.Color('bloom_color:N',
+                    scale = alt.Scale(domain=['Blue', 'Yellow', 'Purple', 'White', 'Red', 'Pink', 'Orange', 'Green', 'None'], 
+                    range=['#5218FA', '#FFD300', '#BD33A4', '#F8F8FF', '#B31B1B', '#E4717A', '#ED872D', '#ACE1AF','#7BB661']),
+                    legend = alt.Legend(title="Bloom Color"))
 
 def density_plot(data, stats):
     """
@@ -49,25 +52,20 @@ def density_plot(data, stats):
     #interactive highlight function
     highlight = alt.selection(type='single',
                               fields=['species', 'common_name'], empty="all")
-    #color
-    color = alt.condition(highlight,
-                          alt.Color('species:N', scale=alt.Scale(scheme='spectral')),
-                          alt.value('lightgray'))
+
 
     #define the density plot
     #define the density plot
     visualizeseeds = alt.Chart(source).mark_point(filled=True, size=100).encode(
         x=alt.X('x', axis=alt.Axis(title='1 meter')),
         y=alt.Y('y', axis=alt.Axis(title='1 meter')),
-        color=alt.Color('bloom_color',
-                    scale = alt.Scale(domain=['Blue', 'Yellow', 'Purple', 'White', 'Red', 'Pink', 'Orange', None], range=['#1560BD', '	#FFD300', '#BD33A4', '#FFF8DC', '#B31B1B', '#E4717A', '#ED872D', '#7BB661']),
-                    legend = alt.Legend(title="Legend")
-        ),
+        color=color,
+        shape='species:N',
         tooltip=['species:N', 'common_name:N'],
     ).add_selection(
         highlight
-    ).properties(width=600, height=500
-    ).configure(background='#B2BEB5')
+    ).properties(width=650, height=500
+    ).configure(background='#D3D3D3')
     
     return visualizeseeds
 
@@ -79,54 +77,23 @@ def seasonality_chart(data, stats):
     seeddf=data.subdata
     #define seasonality chart
    
-    choices = seeddf.loc[seeddf['forb'] == 1]
-
-    species=[]
-    season= []
-    color= []
-
-    for index, row in choices.iterrows():
-            for i in range (0, row['plants_per_meter']):
-                color.append(row["bloom_color"])
-                species.append(index)
-                if row["spring"]==1 and row["summer"]==0 and row["autumn"]==0:
-                    season.append("spring")
-                elif row["summer"]==1 and row ["spring"]==0 and row ["autumn"]==0:
-                    season.append("summer")
-                elif row["autumn"]==1 and row ["spring"]==0 and row ["summer"]==0:
-                    season.append("autumn")
-                elif row["spring"]==1 and row ["summer"]==1 and row["autumn"]==1:
-                    season.append("spring")
-                    season.append("summer")
-                    season.append("autumn")
-                    color.append(row["bloom_color"])
-                    color.append(row["bloom_color"])
-                    color.append(row["bloom_color"])
-                    species.append(index)
-                    species.append(index)
-                    species.append(index)
-                elif row["spring"]==1 and row ["summer"]==1 and row["autumn"]==0:
-                    season.append("spring")
-                    season.append("summer")
-                    color.append(row["bloom_color"])
-                    color.append(row["bloom_color"])
-                    species.append(index) 
-                    species.append(index)
-                elif row["spring"]==0 and row ["summer"]==1 and row["autumn"]==1:
-                    season.append("summer")
-                    season.append("autumn")
-                    color.append(row["bloom_color"])
-                    color.append(row["bloom_color"])
-                    species.append(index) 
-                    species.append(index)
+    forbs = seeddf.loc[seeddf['forb'] == 1]
+    blooming=forbs.loc[np.repeat(forbs.index.values, forbs.plants_per_meter)]
+    spring=blooming.groupby(['spring', 'bloom_color']).count().reset_index().rename(columns={'plants_per_meter':'SPRING'}).filter(['spring','bloom_color', 'SPRING'])
+    spring2=spring.loc[spring['spring']=='1.0'].filter(['bloom_color', 'SPRING']).set_index('bloom_color')
+    summer=blooming.groupby(['summer', 'bloom_color']).count().reset_index().rename(columns={'common_name':'SUMMER'}).filter(['summer', 'bloom_color', 'SUMMER'])
+    summer2=summer.loc[summer['summer']=='1.0'].filter(['bloom_color', 'SUMMER']).set_index('bloom_color')
+    autumn=blooming.groupby(['autumn', 'bloom_color']).count().reset_index().rename(columns={'common_name':'AUTUMN'}).filter(['autumn', 'bloom_color', 'AUTUMN'])
+    autumn2=autumn.loc[autumn['autumn']=='1.0'].filter(['bloom_color', 'AUTUMN']).set_index('bloom_color')
     
-    source = pd.DataFrame((species,season, color), index=None).T
-
+    source=pd.concat([spring2, summer2, autumn2], axis=1).T.reset_index().rename(columns={'index':'season'}).melt('season')       
+    
+    
     seasonaldistribution = alt.Chart(source).mark_bar(size=100).encode(
-        x="season",
-        y="species",
-        color="color"
-    ).properties(width=500, height=300)
+        x=alt.X('season:N', sort=['SPRING', 'SUMMER', 'AUTUMN']),
+        y=alt.Y('value:Q',axis=alt.Axis(title='number of plants per square meter in bloom')),
+        color=color
+    ).properties(width=650, height=400
+    ).configure(background='#D3D3D3')
 
     return seasonaldistribution
-    
