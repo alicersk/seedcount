@@ -122,8 +122,8 @@ def display_plot(data, stats):
     """
     st.write("### Here is a visualization of your desired species density:")
     st.altair_chart(density_plot(data, stats), use_container_width=False)
-    #st.altair_chart(seasonality_chart(data, stats), use_container_width=True) 
-    st.write(seasonality_chart(data,stats))
+    st.altair_chart(seasonality_chart(data, stats), use_container_width=True) 
+    
 
 def display_purchase_info(stats):
     """

@@ -8,6 +8,7 @@ import pandas as pd
 import altair as alt
 import random
 import numpy as np  
+import streamlit as st
 
 color=alt.Color('bloom_color:N',
                     scale = alt.Scale(domain=['Blue', 'Yellow', 'Purple', 'White', 'Red', 'Pink', 'Orange', 'Green', 'None'], 
@@ -80,14 +81,13 @@ def seasonality_chart(data, stats):
     forbs = seeddf.loc[seeddf['forb'] == 1]
     blooming=forbs.loc[np.repeat(forbs.index.values, forbs.plants_per_meter)]
     spring=blooming.groupby(['spring', 'bloom_color']).count().reset_index().rename(columns={'plants_per_meter':'SPRING'}).filter(['spring','bloom_color', 'SPRING'])
-    spring2=spring.loc[spring['spring']=='1.0'].filter(['bloom_color', 'SPRING']).set_index('bloom_color')
+    spring2=spring.loc[spring['spring']==1].filter(['bloom_color', 'SPRING']).set_index('bloom_color')
     summer=blooming.groupby(['summer', 'bloom_color']).count().reset_index().rename(columns={'common_name':'SUMMER'}).filter(['summer', 'bloom_color', 'SUMMER'])
-    summer2=summer.loc[summer['summer']=='1.0'].filter(['bloom_color', 'SUMMER']).set_index('bloom_color')
+    summer2=summer.loc[summer['summer']==1].filter(['bloom_color', 'SUMMER']).set_index('bloom_color')
     autumn=blooming.groupby(['autumn', 'bloom_color']).count().reset_index().rename(columns={'common_name':'AUTUMN'}).filter(['autumn', 'bloom_color', 'AUTUMN'])
-    autumn2=autumn.loc[autumn['autumn']=='1.0'].filter(['bloom_color', 'AUTUMN']).set_index('bloom_color')
+    autumn2=autumn.loc[autumn['autumn']==1].filter(['bloom_color', 'AUTUMN']).set_index('bloom_color')
     
     source=pd.concat([spring2, summer2, autumn2], axis=1).T.reset_index().rename(columns={'index':'season'}).melt('season')       
-    
     
     seasonaldistribution = alt.Chart(source).mark_bar(size=100).encode(
         x=alt.X('season:N', sort=['SPRING', 'SUMMER', 'AUTUMN']),
