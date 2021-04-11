@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 """
-To run, paste into terminal: streamlit run seedcount.py
+To run, paste into terminal: streamlit run app.py
 """
 
 import streamlit as st
@@ -11,7 +11,7 @@ from plotting import density_plot, seasonality_chart
 from downloading import download_link
 
 
-#@st.cache()
+
 def load_data_once():
     """ only load the data once and cache it """
     return SeedData()
@@ -101,13 +101,13 @@ def display_warnings(data, stats):
 
     if stats.data.seeds_per_meter.sum() < 400.0: 
         st.warning(
-            "Consider increasing number of plants for better weed "
+            "**Not Enough Plants**: Consider increasing number of plants for better weed "
             "suppression and erosion control."
         )
 
     if stats.data.seeds_per_meter.sum() > 1200.0:
         st.warning(
-            "Consider decreasing desired density of plants to reduce competition and maintain "
+            "**Too Many Plants**: Consider decreasing number of plants to reduce competition and maintain "
             "diversity."
         )
 

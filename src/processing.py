@@ -6,13 +6,14 @@ DATA processing for seedcount app
 
 import os
 import pandas as pd
-
+import streamlit as st
 
 # get file from absolute path relative to here.
 SEEDS = os.path.join(os.path.dirname(__file__), "SEEDS.csv")
 
 
 class SeedData:
+    @st.cache()
     def __init__(self):
 
         # the full dataset       
