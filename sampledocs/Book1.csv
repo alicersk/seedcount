@@ -1,0 +1,8 @@
+﻿species,common_name,seeds_per_lb,forb,fall,germ_rate,ht,habitat,spring,summer,autumn,Native,bloom_color,plants_per_meter
+Achillea millefolium*,Common Yarrow,2790000,1,1,0.7,3.3,Dry to Average Soil,0,1,1,No,White,5
+Acorus americanus,Sweetflag,70000,1,1,0.7,6.5,Saturated Soil,1,1,0,Yes,Yellow,4
+Agastache foeniculum,Lavender Hyssop,1362000,1,1,0.7,3.3,Dry to Average Soil,0,1,0,Yes,Blue,3
+Agrimonia parviflora,Small Flowered Agrimony,288000,1,1,0.7,4.9,Consistently Moist Soil,0,1,1,Yes,Yellow,5
+Agrostis alba*,Redtop,4850000,0,0,0.7,4.9,Consistently Moist Soil,0,0,0,No,None,2
+Agrostis hyemalis,Winter Bentgrass,8500000,0,0,0.7,2.9,Dry to Average Soil,0,0,0,Yes,None,1
+Agrostis perennans,Autumn Bentgrass,8000000,0,0,0.7,3.3,Dry to Average Soil,0,0,0,Yes,None,0
