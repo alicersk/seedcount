@@ -17,7 +17,7 @@ color=alt.Color('bloom_color:N',
 
 def density_plot(data, stats):
     """
-
+    creates a visualization of one square meter of seeded planting in plan view
     """
 
     seeddf = data.subdata
@@ -46,8 +46,6 @@ def density_plot(data, stats):
             
     metercalc = pd.DataFrame((species, common_name, bloom_color, x, y), index=None).T.rename(columns={0:"species", 1:"common_name", 2:"bloom_color", 3:"x", 4:"y"})
 
-    #build the altair chart
-
     #define datasource 
     source = metercalc
     #interactive highlight function
@@ -70,24 +68,33 @@ def density_plot(data, stats):
     
     return visualizeseeds
 
+def format_chartdata(data, stats, season):
+    """
+    This function reformats the data for plotting.
+    """
+    seeddf=data.subdata
+    
+    #sort to only show forbs
+    forbs = seeddf.loc[seeddf['forb'] == 1]
+    #duplicate rows so that each plant (per square meter desired density) is its own row
+    blooming=forbs.loc[np.repeat(forbs.index.values, forbs.plants_per_meter)]
+    #create counts by bloom color 
+    df1=blooming.groupby([f'{season}','bloom_color']).count().reset_index().rename(columns={'plants_per_meter':f'{season.upper()}'}).filter([f'{season}', 'bloom_color', f'{season.upper()}'])
+    #remove extraneous data    
+    df2=df1.loc[df1[f'{season}']==1].filter(['bloom_color', f'{season.upper()}']).set_index('bloom_color')
+
+    return df2
 
 def seasonality_chart(data, stats):
     """
     This function plots number of stems in bloom per square meter in each season to assess aesthetic quality and floral resource abundance.
     """
-    seeddf=data.subdata
-    #define seasonality chart
-   
-    forbs = seeddf.loc[seeddf['forb'] == 1]
-    blooming=forbs.loc[np.repeat(forbs.index.values, forbs.plants_per_meter)]
-    spring=blooming.groupby(['spring', 'bloom_color']).count().reset_index().rename(columns={'plants_per_meter':'SPRING'}).filter(['spring','bloom_color', 'SPRING'])
-    spring2=spring.loc[spring['spring']==1].filter(['bloom_color', 'SPRING']).set_index('bloom_color')
-    summer=blooming.groupby(['summer', 'bloom_color']).count().reset_index().rename(columns={'common_name':'SUMMER'}).filter(['summer', 'bloom_color', 'SUMMER'])
-    summer2=summer.loc[summer['summer']==1].filter(['bloom_color', 'SUMMER']).set_index('bloom_color')
-    autumn=blooming.groupby(['autumn', 'bloom_color']).count().reset_index().rename(columns={'common_name':'AUTUMN'}).filter(['autumn', 'bloom_color', 'AUTUMN'])
-    autumn2=autumn.loc[autumn['autumn']==1].filter(['bloom_color', 'AUTUMN']).set_index('bloom_color')
     
-    source=pd.concat([spring2, summer2, autumn2], axis=1).T.reset_index().rename(columns={'index':'season'}).melt('season')       
+    spring=format_chartdata(data, stats, season='spring')
+    summer=format_chartdata(data, stats, season='summer')
+    autumn=format_chartdata(data, stats, season='autumn')
+
+    source=pd.concat([spring, summer, autumn], axis=1).T.reset_index().rename(columns={'index':'season'}).melt('season')    
     
     seasonaldistribution = alt.Chart(source).mark_bar(size=100).encode(
         x=alt.X('season:N', sort=['SPRING', 'SUMMER', 'AUTUMN']),
@@ -97,3 +104,5 @@ def seasonality_chart(data, stats):
     ).configure(background='#D3D3D3')
 
     return seasonaldistribution
+
+    
