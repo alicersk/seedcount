@@ -8,7 +8,7 @@ import streamlit as st
 import pandas as pd
 import base64
 from processing import SeedData, Stats
-from plotting import density_plot, seasonality_chart
+from plotting import density_plot, seasonality_chart, section_plot
 
 
 
@@ -121,8 +121,9 @@ def display_plot(data, stats):
     
     """
     st.write("### Here is a visualization of your desired species density:")
+    st.altair_chart(section_plot(data, stats), use_container_width=False)
     st.altair_chart(density_plot(data, stats), use_container_width=False)
-    st.altair_chart(seasonality_chart(data, stats), use_container_width=True) 
+    st.altair_chart(seasonality_chart(data, stats), use_container_width=False) 
     
 
 def display_purchase_info(stats):

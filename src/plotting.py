@@ -15,47 +15,69 @@ color=alt.Color('bloom_color:N',
                     range=['#5218FA', '#FFD300', '#BD33A4', '#F8F8FF', '#B31B1B', '#E4717A', '#ED872D', '#ACE1AF','#7BB661']),
                     legend = alt.Legend(title="Bloom Color"))
 
-def density_plot(data, stats):
+def format_plotdata(data, stats):
     """
-    creates a visualization of one square meter of seeded planting in plan view
+    creates a dataframe appropriate for plotting the desired density plan and section charts
     """
-
     seeddf = data.subdata
 
     #this for loop generates the plotting data
     choices = pd.DataFrame(
-        (seeddf.index.values, 
-            seeddf["common_name"], 
-            seeddf["plants_per_meter"], 
-            seeddf["bloom_color"]),
-             index=None).T.rename(columns={0: "species", 1: "common_name", 2: "plants_per_meter", 3:"bloom_color"})
+    (seeddf.index.values, 
+        seeddf["common_name"], 
+        seeddf["plants_per_meter"], 
+        seeddf["ht"],
+        seeddf["bloom_color"]),
+            index=None).T.rename(columns={0: "species", 1: "common_name", 2: "plants_per_meter", 3:"ht", 4:"bloom_color"})
 
 
     species = []
     common_name= []
     bloom_color= []
+    ht=[]
     x = []
     y = []
     for index, row in choices.iterrows():
         for i in range (0, row['plants_per_meter']):
             species.append(row["species"])
             common_name.append(row["common_name"])
+            ht.append(row["ht"])
             x.append(random.uniform(0, 1))
             y.append(random.uniform(0, 1))
             bloom_color.append(row["bloom_color"])
-            
-    metercalc = pd.DataFrame((species, common_name, bloom_color, x, y), index=None).T.rename(columns={0:"species", 1:"common_name", 2:"bloom_color", 3:"x", 4:"y"})
+                
+    source = pd.DataFrame((species, common_name, ht, bloom_color, x, y), index=None).T.rename(columns={0:"species", 1:"common_name", 2:"ht", 3:"bloom_color", 4:"x", 5:"y"})
+    
+    return source
 
-    #define datasource 
-    source = metercalc
+def section_plot(data, stats):
+    """
+    creates a visualization of  section/elevation of one square meter of seeded planting
+    """
+    source=format_plotdata(data, stats)
+
+    #define the section elevation
+    sectionelevation = alt.Chart(data=source, title='Section Elevation of Proposed Planting').mark_bar(size=5).encode(
+        x=alt.X('x:Q', axis=alt.Axis(title='1 meter')),
+        y=alt.Y('ht:Q',axis=alt.Axis(title='height (feet)')),
+        color=color,
+        tooltip=['species:N', 'common_name:N'],
+        ).properties(width=650, height=400
+        ).configure(background='#D3D3D3')
+
+    return sectionelevation
+
+def density_plot(data, stats):
+    """
+    creates a visualization of one square meter of seeded planting in plan view
+    """    
+    source=format_plotdata(data, stats)
+    
     #interactive highlight function
     highlight = alt.selection(type='single',
-                              fields=['species', 'common_name'], empty="all")
-
-
+                                fields=['species', 'common_name'], empty="all")
     #define the density plot
-    #define the density plot
-    visualizeseeds = alt.Chart(source).mark_point(filled=True, size=100).encode(
+    visualizeseeds = alt.Chart(data=source, title='Plan View of Proposed Planting').mark_point(filled=True, size=100).encode(
         x=alt.X('x', axis=alt.Axis(title='1 meter')),
         y=alt.Y('y', axis=alt.Axis(title='1 meter')),
         color=color,
@@ -63,7 +85,7 @@ def density_plot(data, stats):
         tooltip=['species:N', 'common_name:N'],
     ).add_selection(
         highlight
-    ).properties(width=650, height=500
+    ).properties(width=650, height=515
     ).configure(background='#D3D3D3')
     
     return visualizeseeds
@@ -96,12 +118,12 @@ def seasonality_chart(data, stats):
 
     source=pd.concat([spring, summer, autumn], axis=1).T.reset_index().rename(columns={'index':'season'}).melt('season')    
     
-    seasonaldistribution = alt.Chart(source).mark_bar(size=100).encode(
+    seasonaldistribution = alt.Chart(data=source, title='Bloom Density by Season').mark_bar(size=100).encode(
         x=alt.X('season:N', sort=['SPRING', 'SUMMER', 'AUTUMN']),
         y=alt.Y('value:Q',axis=alt.Axis(title='number of plants per square meter in bloom')),
         color=color
-    ).properties(width=650, height=400
-    ).configure(background='#D3D3D3')
+        ).properties(width=650, height=400
+        ).configure(background='#D3D3D3')
 
     return seasonaldistribution
 
