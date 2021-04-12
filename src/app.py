@@ -6,12 +6,13 @@ To run, paste into terminal: streamlit run app.py
 
 import streamlit as st
 import pandas as pd
+import base64
 from processing import SeedData, Stats
 from plotting import density_plot, seasonality_chart
-from downloading import download_link
 
 
 
+#@st.cache(allow_output_mutation=True)
 def load_data_once():
     """ only load the data once and cache it """
     return SeedData()
@@ -26,20 +27,19 @@ def write_header():
     ))
 
 
-#@st.cache(suppress_st_warning=True)
 def sidebar_moisture_selector(data):
     """ a selector of the moisture type """
     moisture_value = st.sidebar.selectbox(
         "Choose a soil moisture level", 
         ('ALL', 'Dry to Average Soil', 'Consistently Moist Soil', 'Saturated Soil'),
     )
-
     # resets .subdata selection from .data
     if moisture_value != "ALL":
         data.subdata = data.data[data.data.habitat == moisture_value].copy()
     else:
         data.subdata = data.data.copy()
 
+    return moisture_value
 
 def display_seeds(data):
     """
@@ -141,9 +141,26 @@ def display_purchase_info(stats):
         "Roll or press seeds into soil to ensure good seed-to-soil contact but do not bury. Cover with weed-free wheat or oat straw."
     )
     
-    tmp_download_link = download_link(data, stats)
-    st.markdown(tmp_download_link, unsafe_allow_html=True)
-        
+    
+
+def download_link(data, stats, moisture_value):
+    """
+    Generates a link to download the Seed Mix Specification as a csv
+    """
+    object_to_download=stats.purchaselist.reset_index().rename(columns={'index':'latin_name'})
+    
+    download_filename= f'Seed Mix - {moisture_value}.csv'
+
+    object_to_download = object_to_download.to_csv(index=False)
+
+    # some strings <-> bytes conversions necessary here
+    b64 = base64.b64encode(object_to_download.encode()).decode()
+
+    tmp_download_link= f'<a href="data:file/txt;base64,{b64}" download="{download_filename}"><input type="button" value="Download Seed Mix as CSV"></a>'   
+
+    st.markdown(tmp_download_link, unsafe_allow_html=True)    
+
+
 
 if __name__ == "__main__":
     
@@ -153,9 +170,9 @@ if __name__ == "__main__":
     # Title and instructions
     write_header()
 
-    # OPTION: Sidebar for selecting soil moisture level
-    sidebar_moisture_selector(data)
-
+    # Sidebar for selecting soil moisture level
+    moisture_value = sidebar_moisture_selector(data)
+    
     # Display selected plants
     display_seeds(data)
 
@@ -173,4 +190,9 @@ if __name__ == "__main__":
 
         # Display purchase list info
         display_purchase_info(stats)
+
+        # Make downloadable csv of results
+        download_link(data, stats, moisture_value)
+        
+
         
