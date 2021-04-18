@@ -49,8 +49,27 @@ def display_seeds(data):
     usrchoices = {}
     for spp in data.subdata.index:
 
-        # get common name of this spp
+        # get data for label and tooltip
         common_name = data.subdata.at[spp, "common_name"]
+        ht = data.subdata.at[spp, "ht"]
+        if data.subdata.at[spp, 'bloom_color'] != 'None':
+            bloom_color=data.subdata.at[spp, "bloom_color"]
+           
+        seasonl=[]
+        if data.subdata.at[spp, "spring"]==1:
+            seasonl.append("Spring")
+        if data.subdata.at[spp, "summer"]==1:
+            seasonl.append("Summer")
+        if data.subdata.at[spp, "autumn"]==1:
+            seasonl.append("Autumn")
+        
+        season = ', '.join(map(str, seasonl))    
+
+        #write helpstring
+        if season:
+            helpstring=f"height={ht}; bloom season={season}; bloom color={bloom_color}"
+        else:
+            helpstring=f"height={ht}"       
 
         # create a number input
         count = st.sidebar.number_input(
@@ -58,6 +77,7 @@ def display_seeds(data):
             min_value=0, 
             max_value=500, 
             step=1,
+            help=helpstring
         )
         if count:
             usrchoices[spp] = count
