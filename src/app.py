@@ -12,7 +12,7 @@ from plotting import density_plot, seasonality_chart, section_plot
 
 
 
-#@st.cache(allow_output_mutation=True)
+@st.cache(allow_output_mutation=True)
 def load_data_once():
     """ only load the data once and cache it """
     return SeedData()
@@ -141,19 +141,9 @@ def display_plot(data, stats):
     
     """
     st.write("### Here is a visualization of your desired species density:")
-    season = st.select_slider("Choose a season to visualize", options=['Spring', 'Summer', 'Autumn'])
+    season = st.select_slider("Choose a season to visualize", options=['Spring', 'Summer', 'Autumn', 'Winter'])
     st.altair_chart(section_plot(data, stats, Season=f'{season}'), use_container_width=False)
-    st.altair_chart(density_plot(data, stats, Season=f'{season}'), use_container_width=False)
-    #if season == 'Spring':
-        #st.altair_chart(section_plot(data, stats, Season='Spring'), use_container_width=False)
-        #st.altair_chart(density_plot(data, stats, Season='Spring'), use_container_width=False)
-    #if season == 'Summer':
-        #st.altair_chart(section_plot(data, stats, Season='Summer'), use_container_width=False)
-        #st.altair_chart(density_plot(data, stats, Season='Summer'), use_container_width=False)
-    #if season == 'Fall':
-        #st.altair_chart(section_plot(data, stats, Season='Autumn'), use_container_width=False)
-        #st.altair_chart(density_plot(data, stats, Season='Autumn'), use_container_width=False)   
-
+    st.altair_chart(density_plot(data, stats, Season=f'{season}'), use_container_width=False)  
     st.altair_chart(seasonality_chart(data, stats), use_container_width=False) 
     
 
