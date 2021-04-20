@@ -23,7 +23,7 @@ def format_plotdata(data, stats, Season):
     """
     creates a dataframe appropriate for plotting the desired density plan and section charts
     """
-    seeddf = data.subdata
+    seeddf = data.subdata.copy()
 
     #this for loop generates the plotting data
     choices = pd.DataFrame(
@@ -79,7 +79,8 @@ def section_plot(data, stats, Season):
     """
     source=format_plotdata(data, stats, Season)
     source2=source.loc[source['bloom_color'] != 'None']
-    opacity=alt.Opacity('y:Q')
+
+    opacity=alt.Opacity('y:Q', legend=None)
     if Season=='Winter':
         scolor='#D6B08C'
         fcolor=wcolor
@@ -88,7 +89,7 @@ def section_plot(data, stats, Season):
         fcolor=color
     #define the section elevation
     sectionstems = alt.Chart(data=source, title='Section Elevation of Proposed Planting').mark_bar(size=3, color=f'{scolor}').encode(
-        x=alt.X('x:Q', axis=alt.Axis(title='1 yard'), scale=alt.Scale(domain=(0,1), bins=3)),
+        x=alt.X('x:Q', axis=alt.Axis(title='1 yard')),
         y=alt.Y('ht:Q',axis=alt.Axis(title='height (feet)'), scale=alt.Scale(domain=(0, 8))),
         tooltip=['species:N', 'common_name:N'],
         opacity=opacity
@@ -135,7 +136,7 @@ def format_chartdata(data, stats, season):
     """
     This function reformats the data for plotting.
     """
-    seeddf=data.subdata
+    seeddf=data.subdata.copy()
     
     #sort to only show forbs
     forbs = seeddf.loc[seeddf['forb'] == 1]

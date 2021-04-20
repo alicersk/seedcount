@@ -5,6 +5,7 @@ To run, paste into terminal: streamlit run app.py
 """
 
 import streamlit as st
+import os
 import pandas as pd
 import base64
 from processing import SeedData, Stats
@@ -21,19 +22,22 @@ def load_data_once():
 def write_header():
     """ write the title and instructions """
     st.title("Seed Count")
-    st.write((
-        "Welcome!"
-        " Seed Count is a tool for designing native (and adapted) seed mixes for use in the Mid-Atlantic."
-        "Please begin by selecting the soil moisture level of the site for which you are designing the seed mix, "
-        "then enter your desired plant density for each species (in plants per square yard) from the sidebar to the left."
-        "Keep an eye on the warnings, in yellow, which can help ensure your seed mix will be successful."
-        "Click the question mark to the right of each species name to learn more about it."
-        "Use the section/elevation and plan visualizations to assess and re-adjust your design if necessary- the "
-        "seasonal slider will help compare the predicted aesthetic in different seasons. When you are satisfied that your"
-        "proposed planting meets your requirements, scroll to the bottom to download it as a CSV which can be formatted as a table"
-        "or submitted directly for purchase. The pounds per acre value will allow you to calculate the amount you need based on the area of your site."
-    ))
+    st.markdown("""
+    Seed Count is a tool for designing native (and adapted) seed mixes for use in the Mid-Atlantic, in an institutional, commercial, or residential setting.  
 
+    ### Using Seed Count
+    - To begin, select the soil moisture level of your site, then enter your desired plant density for each species (in plants per square yard) 
+    in the sidebar to the left.
+
+    - Keep an eye on the warnings, in yellow, and click the question mark to the right of each species name to learn more about it, or if you're 
+    looking for a plant with a particular characteristic. 
+
+    - Use the visualizations to assess and re-adjust your design if necessary- the seasonal slider allows you to compare different seasons. 
+    Hover over the symbols to see which species they represent.
+
+    - When you are satisfied with your mix, scroll to the bottom to download it as a CSV which can be used to order seeds for purchase- 
+    the seeding rate (pounds/acre) will allow you to calculate the amount you need based on the area of your site. 
+    """)
 
 def sidebar_moisture_selector(data):
     """ a selector of the moisture type """
@@ -42,14 +46,13 @@ def sidebar_moisture_selector(data):
         "Choose a soil moisture level", 
         ('ALL', 'Dry to Average Soil', 'Consistently Moist Soil', 'Saturated Soil'),
     )
-    st.sidebar.write("* indicates non-native species")
+    st.sidebar.write("*indicates non-native species")
     # resets .subdata selection from .data
     if moisture_value != "ALL":
         data.subdata = data.data[data.data.habitat == moisture_value].copy()
     else:
         data.subdata = data.data.copy()
 
-    st.sidebar.write ("* indicates non-native species")
     return moisture_value
 
 def display_seeds(data):
@@ -92,7 +95,7 @@ def display_seeds(data):
         )
         if count:
             usrchoices[spp] = count
-
+    st.sidebar.write("*indicates non-native species")
     # convert dict to df for displaying as a table
     usrchoicesdf = pd.DataFrame.from_dict(
         usrchoices, 
