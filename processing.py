@@ -36,18 +36,18 @@ class Stats:
             index=data.subdata.index,
             columns=[
                 "common_name",
-                "plants_per_meter",
+                "plants_per_yard",
                 "seeds_per_lb",
                 "germ_rate",
                 "pounds_per_acre",
                 "percent_by_weight",
-                "seeds_per_meter",
+                "seeds_per_yard",
             ]
         )
 
         # existing data
         self.data.common_name=data.subdata.common_name
-        self.data.plants_per_meter = data.subdata.plants_per_meter
+        self.data.plants_per_yard = data.subdata.plants_per_yard
         self.data.seeds_per_lb = data.subdata.seeds_per_lb
         self.data.germ_rate = data.subdata.germ_rate
 
@@ -62,11 +62,11 @@ class Stats:
         """
         ...
         """
-        # plants per square meter * square meters to acres conversion / germination rate * seeds per pound = 
-        # how many seeds per pound you need per acre to get the number of plants desired per square meter
+        # plants per square yard * square yards to acres conversion / germination rate * seeds per pound = 
+        # how many seeds per pound you need per acre to get the number of plants desired per square yard
         self.data["pounds_per_acre"] = (
-            self.data["plants_per_meter"] / self.data["seeds_per_lb"] * 
-            4046.86 / self.data["germ_rate"]
+            self.data["plants_per_yard"] / self.data["seeds_per_lb"] * 
+            4840 / self.data["germ_rate"]
         )
                 
         # It's customary to include percent by weight as well to help 
@@ -75,8 +75,8 @@ class Stats:
             self.data.pounds_per_acre / self.data.pounds_per_acre.sum()*100
         )
 
-        self.data["seeds_per_meter"] = (
-            self.data.plants_per_meter / self.data.germ_rate
+        self.data["seeds_per_yard"] = (
+            self.data.plants_per_yard / self.data.germ_rate
         )
 
         self.purchaselist = self.data.filter([

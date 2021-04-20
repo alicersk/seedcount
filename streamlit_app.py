@@ -22,23 +22,34 @@ def write_header():
     """ write the title and instructions """
     st.title("Seed Count")
     st.write((
-        "Please begin by selecting your soil moisture level "
-        "and desired plant density (in plants per square meter) from the sidebar to the left."
+        "Welcome!"
+        " Seed Count is a tool for designing native (and adapted) seed mixes for use in the Mid-Atlantic."
+        "Please begin by selecting the soil moisture level of the site for which you are designing the seed mix, "
+        "then enter your desired plant density for each species (in plants per square yard) from the sidebar to the left."
+        "Keep an eye on the warnings, in yellow, which can help ensure your seed mix will be successful."
+        "Click the question mark to the right of each species name to learn more about it."
+        "Use the section/elevation and plan visualizations to assess and re-adjust your design if necessary- the "
+        "seasonal slider will help compare the predicted aesthetic in different seasons. When you are satisfied that your"
+        "proposed planting meets your requirements, scroll to the bottom to download it as a CSV which can be formatted as a table"
+        "or submitted directly for purchase. The pounds per acre value will allow you to calculate the amount you need based on the area of your site."
     ))
 
 
 def sidebar_moisture_selector(data):
     """ a selector of the moisture type """
+    
     moisture_value = st.sidebar.selectbox(
         "Choose a soil moisture level", 
         ('ALL', 'Dry to Average Soil', 'Consistently Moist Soil', 'Saturated Soil'),
     )
+    st.sidebar.write("* indicates non-native species")
     # resets .subdata selection from .data
     if moisture_value != "ALL":
         data.subdata = data.data[data.data.habitat == moisture_value].copy()
     else:
         data.subdata = data.data.copy()
 
+    st.sidebar.write ("* indicates non-native species")
     return moisture_value
 
 def display_seeds(data):
@@ -86,7 +97,7 @@ def display_seeds(data):
     usrchoicesdf = pd.DataFrame.from_dict(
         usrchoices, 
         orient="index", 
-        columns=["plants_per_meter"],
+        columns=["plants_per_yard"],
     )
 
     # display
@@ -110,8 +121,8 @@ def display_warnings(data, stats):
             "reduce dormancy and improve establishment."
         ))
 
-    forbs_density = data.subdata[data.subdata.forb == 1].plants_per_meter.sum()
-    all_density = data.subdata.plants_per_meter.sum()
+    forbs_density = data.subdata[data.subdata.forb == 1].plants_per_yard.sum()
+    all_density = data.subdata.plants_per_yard.sum()
     if forbs_density / all_density > 0.6:
         st.warning((
             "**Forb Density is High**: Consider adding more grasses or "
@@ -119,13 +130,13 @@ def display_warnings(data, stats):
             "especially if your site is sloped."
         ))
 
-    if stats.data.seeds_per_meter.sum() < 400.0: 
+    if stats.data.seeds_per_yard.sum() < 400.0: 
         st.warning(
             "**Not Enough Plants**: Consider increasing number of plants for better weed "
             "suppression and erosion control."
         )
 
-    if stats.data.seeds_per_meter.sum() > 1200.0:
+    if stats.data.seeds_per_yard.sum() > 1200.0:
         st.warning(
             "**Too Many Plants**: Consider decreasing number of plants to reduce competition and maintain "
             "diversity."
@@ -140,7 +151,7 @@ def display_plot(data, stats):
     Create plots from function in plotting module
     
     """
-    st.write("### Here is a visualization of your desired species density:")
+    st.write("### Use the slider to visualize your design in different seasons. Scroll down for plan view.")
     season = st.select_slider("Choose a season to visualize", options=['Spring', 'Summer', 'Autumn', 'Winter'])
     st.altair_chart(section_plot(data, stats, Season=f'{season}'), use_container_width=False)
     st.altair_chart(density_plot(data, stats, Season=f'{season}'), use_container_width=False)  

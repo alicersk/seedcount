@@ -9,7 +9,7 @@ setup(
     author_email="alice.sturm@gmail.com",
     license="GPLv3",
     description="",
-    install_requires = ["pandas", "streamlit", "altair", "random", "numpy"],
+    install_requires = ["pandas", "streamlit", "altair", "numpy"],
     classifiers=["Programming Language :: Python :: 3"],
     
 )
