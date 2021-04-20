@@ -25,7 +25,7 @@ def write_header():
     st.markdown("""
     Seed Count is a tool for designing native (and adapted) seed mixes for use in the Mid-Atlantic, in an institutional, commercial, or residential setting.  
 
-    ### Using Seed Count
+    ###git g Using Seed Count
     - To begin, select the soil moisture level of your site, then enter your desired plant density for each species (in plants per square yard) 
     in the sidebar to the left.
 
@@ -155,7 +155,7 @@ def display_plot(data, stats):
     
     """
     st.write("### Use the slider to visualize your design in different seasons. Scroll down for plan view.")
-    season = st.select_slider("Choose a season to visualize", options=['Spring', 'Summer', 'Autumn', 'Winter'])
+    season = st.select_slider("Choose a season:", options=['Spring', 'Summer', 'Autumn', 'Winter'])
     st.altair_chart(section_plot(data, stats, Season=f'{season}'), use_container_width=False)
     st.altair_chart(density_plot(data, stats, Season=f'{season}'), use_container_width=False)  
     st.altair_chart(seasonality_chart(data, stats), use_container_width=False) 
