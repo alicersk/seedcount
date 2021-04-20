@@ -8,7 +8,10 @@ See below for instructions on how to install the code to expand it.
 conda install pandas numpy altair streamlit -c conda-forge 
 
 git clone https://github.com/alicersk/seedcount
-cd ./seedcount/src
+cd ./seedcount
 streamlit run app.py
 ```
 Once the streamlit app has launched, select some plant species to get started. 
+
+If you want to use the app in its current iteration, rather than work on its code, simply go to the following url:
+
