@@ -109,8 +109,8 @@ def display_seeds(data):
         st.table(usrchoicesdf)
 
     # subselect these plants from dataset
-    data.subdata = data.subdata.loc[usrchoicesdf.index, :]
-    data.subdata = pd.concat([data.subdata, usrchoicesdf], axis=1)
+    data.subdata = data.subdata.copy().loc[usrchoicesdf.index, :]
+    data.subdata = pd.concat([data.subdata.copy(), usrchoicesdf], axis=1)
 
 
 def display_warnings(data, stats):
