@@ -52,7 +52,7 @@ def format_plotdata(data, stats, Season):
         for i in range (0, row['plants_per_yard']):
             species.append(row["species"])
             common_name.append(row["common_name"])
-            ht.append(row["ht"])
+            ht.append(row["ht"]+random.uniform(-.2, .2))
             bloom_color.append(row["bloom_color"])
             spring.append(row["spring"])
             summer.append(row["summer"])

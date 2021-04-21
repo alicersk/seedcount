@@ -1,304 +1,303 @@
-species,common_name,seeds_per_lb,forb,fall,germ_rate,ht,habitat,spring,summer,autumn,Native,bloom_color
-Achillea millefolium*,Common Yarrow,2790000,1,1,0.7,3.3,Dry to Average Soil,0,1,1,No,White
-Acorus americanus,Sweetflag,70000,1,1,0.7,6.5,Saturated Soil,1,1,0,Yes,Yellow
-Agastache foeniculum,Lavender Hyssop,1362000,1,1,0.7,3.3,Dry to Average Soil,0,1,0,Yes,Blue
-Agrimonia parviflora,Small Flowered Agrimony,288000,1,1,0.7,4.9,Consistently Moist Soil,0,1,1,Yes,Yellow
-Agrostis alba*,Redtop,4850000,0,0,0.7,4.9,Consistently Moist Soil,0,0,0,No,None
-Agrostis hyemalis,Winter Bentgrass,8500000,0,0,0.7,2.9,Dry to Average Soil,0,0,0,Yes,None
-Agrostis perennans,Autumn Bentgrass,8000000,0,0,0.7,3.3,Dry to Average Soil,0,0,0,Yes,None
-Agrostis scabra,Ticklegrass,5000000,0,0,0.7,2.9,Dry to Average Soil,0,0,0,Yes,None
-Alisma subcordatum,Mud Plantain,825000,1,1,0.7,3.3,Saturated Soil,0,1,0,Yes,White
-Allium cernuum,Nodding Onion,123000,1,1,0.7,2.6,Dry to Average Soil,0,1,0,Yes,Pink
-Amsonia ciliata,Fringed Bluestar,45400,1,1,0.7,2.3,Dry to Average Soil,1,0,0,Yes,Blue
-Andropogon gerardii,Big Bluestem,144000,0,0,0.7,10,Dry to Average Soil,0,0,0,Yes,None
-Andropogon glomeratus ,Bushy Bluestem,544000,0,0,0.7,6,Consistently Moist Soil,0,0,0,Yes,None
-Andropogon glomeratus var. glaucopsis,Purple Bluestem,600000,0,0,0.7,3,Consistently Moist Soil,0,0,0,Yes,None
-Andropogon ternarius,Splitbeard Bluestem,216000,0,0,0.7,4.9,Dry to Average Soil,0,0,0,Yes,None
-Andropogon virginicus,Broomsedge,800000,0,0,0.7,6.8,Dry to Average Soil,0,0,0,Yes,None
-Anemone canadensis,Canadian Anemone,131660,1,1,0.7,2.6,Consistently Moist Soil,1,1,0,Yes,White
-Anemone virginiana,Thimbleweed,448000,1,1,0.7,3.6,Dry to Average Soil,1,1,0,Yes,White
-Apocynum cannabinum,Indian Hemp,500000,0,1,0.7,4.9,Dry to Average Soil,1,1,1,Yes,None
-Aquilegia canadensis,Eastern Columbine,504000,1,1,0.7,3.3,Dry to Average Soil,1,1,0,Yes,Red
-Asclepias incarnata,Swamp Milkweed,70000,1,1,0.7,4.9,Consistently Moist Soil,0,1,0,Yes,Pink
-Asclepias syriaca,Common Milkweed,70000,1,1,0.7,6.5,Dry to Average Soil,0,1,0,Yes,Purple
-Asclepias tuberosa,Butterfly Milkweed,70000,1,1,0.7,2.9,Dry to Average Soil,0,1,0,Yes,Orange
-Aster divaricatus,White Wood Aster,670000,1,1,0.7,3.3,Dry to Average Soil,0,1,1,Yes,White
-Aster laevis,Smooth Aster,1014000,1,1,0.7,6.3,Dry to Average Soil,0,0,1,Yes,Purple
-Aster lowrieanus,Lowrie's Aster,2000000,1,1,0.7,6.5,Dry to Average Soil,0,0,1,Yes,Blue
-Aster macrophyllus,Big Leaf Aster,800000,1,1,0.7,4.9,Dry to Average Soil,0,1,1,Yes,Purple
-Aster novae-angliae,New England Aster,1100000,1,1,0.7,6.5,Consistently Moist Soil,0,1,1,Yes,Purple
-Aster novi-belgii,New York Aster,700000,1,1,0.7,4.6,Consistently Moist Soil,0,0,1,Yes,Blue
-Aster oblongifolius,Aromatic Aster,816000,1,1,0.7,3.3,Dry to Average Soil,0,1,1,Yes,Purple
-Aster patens,Late Purple Aster,800000,1,1,0.7,2.5,Dry to Average Soil,0,0,1,Yes,Purple
-Aster pilosus,Heath Aster,700000,1,1,0.7,4.9,Dry to Average Soil,0,0,1,Yes,White
-Aster prenanthoides,Zig Zag Aster,700000,1,1,0.7,5.5,Consistently Moist Soil,0,1,1,Yes,Blue
-Aster puniceus,Purple Stemmed Aster,7000000,1,1,0.7,8,Consistently Moist Soil,0,0,1,Yes,Blue
-Aster sagittifolius,Arrow Leaved Aster,2000000,1,1,0.7,4.9,Dry to Average Soil,0,1,1,Yes,White
-Aster spectabilis,Showy Aster,700000,1,1,0.7,2.9,Dry to Average Soil,0,1,1,Yes,Blue
-Aster umbellatus,Flat Topped White Aster,1072000,1,1,0.7,6.5,Consistently Moist Soil,0,1,1,Yes,White
-Baptisia alba,White Wild Indigo,25000,1,0,0.7,6.5,Dry to Average Soil,0,1,0,Yes,White
-Baptisia albescens,Spiked Wild Indigo,25000,1,0,0.7,6.5,Dry to Average Soil,1,1,0,Yes,White
-Baptisia australis,Blue False Indigo,22000,1,0,0.7,5.2,Dry to Average Soil,1,1,0,Yes,Purple
-Baptisia cinerea,Grayhairy Wild Indigo,22000,1,0,0.7,2.9,Dry to Average Soil,1,1,0,Yes,Yellow
-Baptisia pendula,Largeleaf Wild Indigo,25000,1,0,0.7,4.9,Dry to Average Soil,1,1,0,Yes,White
-Baptisia perfoliata,Catbells,22000,1,0,0.7,2.9,Dry to Average Soil,1,0,0,Yes,Yellow
-Baptisia tinctoria,Wild Indigo,300000,1,0,0.7,3.3,Dry to Average Soil,0,1,0,Yes,Yellow
-Bidens aristosa,Showy Tickseed Sunflower,130000,1,0,0.7,4.9,Consistently Moist Soil,0,1,1,Yes,Yellow
-Bidens cernua,Nodding Bur Marigold,130000,1,0,0.7,3.3,Saturated Soil,0,1,1,Yes,Yellow
-Bidens frondosa,Beggartick,80000,1,0,0.7,5,Consistently Moist Soil,0,1,1,Yes,Yellow
-Blephilia ciliata,Downy Pagoda Plant,6400000,1,0,0.7,2.6,Dry to Average Soil,1,1,0,Yes,Purple
-Boltonia asteroides,White Doll's Daisy,2592340,1,1,0.7,6.5,Consistently Moist Soil,0,1,1,Yes,White
-Bouteloua curtipendula,Sideoats Grama,159000,0,1,0.7,3.3,Dry to Average Soil,0,0,0,Yes,None
-Bouteloua gracilis,Blue Grama,710000,0,0,0.7,2,Dry to Average Soil,0,0,0,Yes,None
-Buchloe dactyloides,Buffalograss,335000,0,0,0.7,1,Dry to Average Soil,0,0,0,Yes,None
-Calamagrostis canadensis,Canada Bluejoint,3837000,0,0,0.7,5.9,Saturated Soil,0,0,0,Yes,None
-Calendula officinalis*,Calendula,59000,1,0,0.7,2,Dry to Average Soil,0,1,1,No,Orange
-Carex alata,Broadwing Sedge,800000,0,1,0.7,2.5,Saturated Soil,0,0,0,Yes,None
-Carex albolutescens,Greenwhite Sedge,1000000,0,1,0.7,3.9,Saturated Soil,0,0,0,Yes,None
-Carex comosa,Cosmos Sedge,480000,0,1,0.7,4.9,Saturated Soil,0,0,0,Yes,None
-Carex crinita,Nodding Sedge,650000,0,1,0.7,5.2,Saturated Soil,0,0,0,Yes,None
-Carex folliculata,Northern Long Sedge,300000,0,1,0.7,3.2,Saturated Soil,0,0,0,Yes,None
-Carex frankii,Frank's Sedge,500000,0,1,0.7,2.6,Saturated Soil,0,0,0,Yes,None
-Carex glaucescens,Southern Waxy Sedge,400000,0,1,0.7,3.5,Saturated Soil,0,0,0,Yes,None
-Carex granularis var. haleana,Limestone Meadow Sedge,700000,0,1,0.7,2.9,Saturated Soil,0,0,0,Yes,None
-Carex grayi,Gray's Sedge,20430,0,1,0.7,3.3,Saturated Soil,0,0,0,Yes,None
-Carex gynandra,Nodding Sedge,600000,0,1,0.7,5.5,Saturated Soil,0,0,0,Yes,None
-Carex intumescens,Star Sedge,40000,0,1,0.7,3.3,Saturated Soil,0,0,0,Yes,None
-Carex lacustris,Lake Bank Sedge,512000,0,1,0.7,4.9,Saturated Soil,0,0,0,Yes,None
-Carex lupulina,Hop Sedge,94696,0,1,0.7,4.2,Saturated Soil,0,0,0,Yes,None
-Carex lurida,Lurid Sedge,250000,0,1,0.7,3.6,Saturated Soil,0,0,0,Yes,None
-Carex scoparia,Blunt Broomsedge,1344000,0,1,0.7,3.3,Saturated Soil,0,0,0,Yes,None
-Carex squarrosa,Squarrose Sedge,90000,0,1,0.7,2.9,Saturated Soil,0,0,0,Yes,None
-Carex stipata,Awl Sedge,544000,0,1,0.7,3.3,Saturated Soil,0,0,0,Yes,None
-Carex stricta,Tussock Sedge,1800000,0,1,0.7,4.7,Saturated Soil,0,0,0,Yes,None
-Carex vulpinoidea,Fox Sedge,1297000,0,1,0.7,3.3,Saturated Soil,0,0,0,Yes,None
-Centaurea cyanus*,Cornflower,90000,1,0,0.7,3.9,Dry to Average Soil,1,1,1,No,Blue
-Chamaecrista fasciculata,Partridge Pea,65000,1,0,0.7,2.9,Dry to Average Soil,0,1,1,Yes,Yellow
-Chamaecrista nictitans,Sensitive Pea,206570,1,0,0.7,1.6,Dry to Average Soil,0,1,1,Yes,Yellow
-Chasmanthium latifolium,River Oats,90000,0,1,0.7,4.9,Consistently Moist Soil,0,0,0,Yes,None
-Chasmanthium laxum,Slender Woodoats,85000,0,1,0.7,4.9,Consistently Moist Soil,0,0,0,Yes,None
-Chelone glabra,Turtlehead,1472000,1,1,0.7,6.5,Saturated Soil,0,1,1,Yes,White
-Cichorium intybus*,Blue Chicory,426000,1,0,0.7,5.5,Dry to Average Soil,0,1,1,No,Blue
-Cimicifuga racemosa,Black Cohosh,131660,1,1,0.7,8.1,Dry to Average Soil,0,1,0,Yes,White
-Cinna arundinacea,Wood Reedgrass,1000000,0,1,0.7,4.9,Consistently Moist Soil,0,0,0,Yes,None
-Clarkia elegans,Clarkia,1141000,1,0,0.7,2.5,Dry to Average Soil,1,1,0,Yes,Pink
-Coreopsis basalis,Goldenmane Tickseed,512000,1,0,0.7,2.3,Dry to Average Soil,1,1,0,Yes,Yellow
-Coreopsis grandiflora,Largeflower Coreopsis,200000,1,1,0.7,3.3,Dry to Average Soil,1,1,0,Yes,Yellow
-Coreopsis lanceolata,Lance Leaf Coreopsis,221000,1,0,0.7,3.3,Dry to Average Soil,1,1,0,Yes,Yellow
-Coreopsis leavenworthii,Leavenworth's Tickseed,2426000,1,1,0.7,3,Consistently Moist Soil,1,1,1,Yes,Yellow
-Coreopsis major,Greater Tickseed,200000,1,1,0.7,3.3,Dry to Average Soil,1,1,0,Yes,Yellow
-Coreopsis tinctoria,Plains Coreopsis,3222000,1,0,0.7,4.2,Consistently Moist Soil,0,1,1,Yes,Yellow
-Coreopsis tripteris,Tall Tickseed,200000,1,1,0.7,9.8,Dry to Average Soil,0,1,1,Yes,Yellow
-Coreopsis verticillata,Threadleaf Coreopsis,200000,1,1,0.7,3.6,Dry to Average Soil,1,1,0,Yes,Yellow
-Cosmos bipinnatus*,Cosmos ,65000,1,0,0.7,6.5,Dry to Average Soil,0,1,1,No,Pink
-Cosmos sulphureus*,Sulphur Cosmos,61000,1,0,0.7,6,Dry to Average Soil,0,1,1,No,Yellow
-Croton capitatus,Woolly Croton,20000,1,0,0.7,3.9,Dry to Average Soil,0,1,1,Yes,White
-Dalea candida,White Prairie Clover,260000,1,0,0.7,3.3,Dry to Average Soil,0,1,0,Yes,White
-Dalea purpurea,Purple Prairie Clover,300000,1,0,0.7,3.9,Dry to Average Soil,0,1,1,Yes,Purple
-Daucus carota*,Wild Carrot,454000,1,1,0.7,6.5,Dry to Average Soil,0,1,1,No,White
-Desmanthus illinoensis,Illinois Bundleflower,120000,1,0,0.7,6.5,Dry to Average Soil,0,1,0,Yes,White
-Desmodium canadense,Showy Ticktrefoil,80000,1,0,0.7,6.5,Dry to Average Soil,0,1,0,Yes,Purple
-Desmodium glabellum,Dillenius' Ticktrefoil,100000,1,0,0.7,5,Dry to Average Soil,0,1,0,Yes,Pink
-Desmodium paniculatum,Panicled Ticktrefoil,200000,1,0,0.7,4.9,Dry to Average Soil,0,1,0,Yes,Purple
-Desmodium tortuosum,Dixie Ticktrefoil,200640,1,0,0.7,11.4,Dry to Average Soil,0,1,0,Yes,Purple
-Dulichium arundinaceum,Threeway Sedge,500000,0,1,0.7,3.3,Saturated Soil,0,0,0,Yes,None
-Echinacea pallida,Pale Purple Coneflower,106000,1,1,0.7,4,Dry to Average Soil,0,1,0,Yes,Purple
-Echinacea purpurea,Purple Coneflower,116000,1,1,0.7,5.9,Dry to Average Soil,0,1,1,Yes,Purple
-Elymus canadensis,Canada Wildrye,114000,0,0,0.7,6.5,Dry to Average Soil,0,0,0,Yes,None
-Elymus hystrix,Bottlebrush Grass,75000,0,0,0.7,8.1,Dry to Average Soil,0,0,0,Yes,None
-Elymus riparius,Riverbank Wildrye,125000,0,0,0.7,5.9,Consistently Moist Soil,0,0,0,Yes,None
-Elymus virginicus,Virginia Wildrye,73000,0,0,0.7,4.9,Consistently Moist Soil,0,0,0,Yes,None
-Eragrostis hirsuta,Bigtop Lovegrass,1000000,0,0,0.7,4.2,Dry to Average Soil,0,0,0,Yes,None
-Eragrostis spectabilis,Purple Lovegrass,1000000,0,0,0.7,3,Dry to Average Soil,0,0,0,Yes,None
-Erianthus contortus,Shortbeard Plumegrass,200000,0,0,0.7,9.8,Consistently Moist Soil,0,0,0,Yes,None
-Eriophorum virginicum,Tawny Cottongrass,180000,0,1,0.7,4.5,Saturated Soil,0,0,0,Yes,None
-Eryngium aquaticum var. aquaticum,Water Rattlesnake Master,200000,1,1,0.7,6,Saturated Soil,0,1,1,Yes,Blue
-Eryngium aquaticum var. ravenelii,Water Rattlesnake Master,200000,1,1,0.7,6,Saturated Soil,0,1,1,Yes,White
-Eryngium yuccifolium,Rattlesnake Master,124000,1,1,0.7,5.9,Dry to Average Soil,0,1,1,Yes,White
-Eschscholzia californica,California Poppy,346000,1,0,0.7,1.5,Dry to Average Soil,1,1,0,Yes,Orange
-Eupatorium coelestinum,Mistflower,1500000,1,1,0.7,3.3,Consistently Moist Soil,0,1,1,Yes,Blue
-Eupatorium fistulosum,Joe Pye Weed,2000000,1,1,0.7,11.4,Consistently Moist Soil,0,1,1,Yes,Pink
-Eupatorium maculatum,Spotted Joe Pye Weed,1440000,1,1,0.7,8.1,Consistently Moist Soil,0,1,1,Yes,Purple
-Eupatorium perfoliatum,Boneset,2880000,1,1,0.7,4.9,Consistently Moist Soil,0,1,1,Yes,White
-Eupatorium purpureum,Purple Node Joe Pye Weed,672000,1,1,0.7,6.5,Consistently Moist Soil,0,1,1,Yes,Purple
-Eupatorium rugosum,White Snakeroot,2400000,1,1,0.7,4.9,Dry to Average Soil,0,1,1,Yes,White
-Euthamia caroliniana,Slender Goldentop,5000000,1,1,0.7,3.3,Dry to Average Soil,0,1,1,Yes,Yellow
-Euthamia graminifolia,Grass Leaved Goldenrod,5600000,1,1,0.7,4.9,Consistently Moist Soil,0,1,1,Yes,Yellow
-Festuca arundinacea*,Tall Fescue,205000,0,0,0.7,6.5,Dry to Average Soil,0,0,0,No,None
-Festuca ovina*,Sheep Fescue,530000,0,0,0.7,2.6,Dry to Average Soil,0,0,0,No,None
-Festuca ovina var. duriuscula*,Hard Fescue,592000,0,0,0.7,2.6,Dry to Average Soil,0,0,0,No,None
-Festuca ovina var. glauca*,Blue Fescue,550000,0,0,0.7,2.6,Dry to Average Soil,0,0,0,No,None
-Festuca rubra,Creeping Red Fescue,245000,0,0,0.7,3.3,Dry to Average Soil,0,0,0,No,None
-Festuca rubra ssp. Commutata*,Chewings Fescue,500000,0,0,0.7,3.3,Dry to Average Soil,0,0,0,No,None
-Gaillardia aristata,Perennial Gaillardia,186000,1,1,0.7,2.3,Dry to Average Soil,1,1,1,Yes,Red
-Gaillardia pulchella,Annual Gaillardia,238000,1,1,0.7,2,Dry to Average Soil,1,1,1,Yes,Red
-Gaura biennis,Biennial Beeblossom,43130,1,1,0.7,11.4,Consistently Moist Soil,0,1,1,Yes,Pink
-Gentiana clausa,Meadow Bottle Gentian,2980000,1,1,0.7,3.3,Consistently Moist Soil,0,0,1,Yes,Blue
-Geum canadense,White Avens,400000,1,1,0.7,4.9,Dry to Average Soil,1,1,0,Yes,White
-Glyceria canadensis,Rattlesnake Grass,1184000,0,1,0.7,3.2,Saturated Soil,0,0,0,Yes,None
-Glyceria grandis,American Mannagrass,659000,0,1,0.7,5,Saturated Soil,0,0,0,Yes,None
-Glyceria septentrionalis,Floating Mannagrass,300000,0,1,0.7,5,Saturated Soil,0,0,0,Yes,None
-Glyceria striata,Fowl Mannagrass,1540000,0,1,0.7,4,Saturated Soil,0,0,0,Yes,None
-Helenium autumnale,Sneezeweed,1464000,1,1,0.7,6.5,Consistently Moist Soil,0,1,1,Yes,Yellow
-Helenium flexuosum,Purpleheaded Sneezeweed,2000000,1,1,0.7,3.3,Consistently Moist Soil,1,1,0,Yes,Yellow
-Helianthus angustifolius,Narrowleaf Sunflower,504000,1,1,0.7,6.5,Consistently Moist Soil,0,0,1,Yes,Yellow
-Helianthus annuus,Common Sunflower,47000,1,1,0.7,10,Dry to Average Soil,0,1,1,Yes,Yellow
-Helianthus giganteus,Giant Sunflower,200000,1,1,0.7,9.8,Consistently Moist Soil,0,1,1,Yes,Yellow
-Helianthus maximilianii,Maximilian's Sunflower,216000,1,1,0.7,9.8,Dry to Average Soil,0,1,1,Yes,Yellow
-Helianthus occidentalis var. dowellianus,McDowell's Sunflower,178000,1,1,0.7,4,Dry to Average Soil,0,1,1,Yes,Yellow
-Helianthus radula,Rayless Sunflower,200000,1,1,0.7,2.6,Consistently Moist Soil,0,1,1,Yes,Purple
-Heliopsis helianthoides,Ox-Eye Sunflower,105000,1,1,0.7,6,Consistently Moist Soil,0,1,1,Yes,Yellow
-Hibiscus moscheutos,Crimsoneyed Rosemallow,47000,1,0,0.7,6.5,Consistently Moist Soil,0,1,1,Yes,White
-Hordeum jubatum,Foxtail Barley,272400,0,0,0.7,2.2,Dry to Average Soil,0,0,0,Yes,None
-Hypericum punctatum,Spotted St. John's Wort,2000000,1,0,0.7,3.9,Consistently Moist Soil,0,1,0,Yes,Yellow
-Hypericum pyramidatum,Giant St. John's Wort,1800000,1,0,0.7,4.9,Consistently Moist Soil,0,1,0,Yes,Yellow
-Iris versicolor,Blue Flag Iris,18000,1,1,0.7,2.9,Saturated Soil,1,1,0,Yes,Blue
-Iris virginica,Virginia Iris,22000,1,1,0.7,3.2,Saturated Soil,1,0,0,Yes,Blue
-Juncus canadensis,Canadian Rush,30000000,0,0,0.7,3,Saturated Soil,0,0,0,Yes,None
-Juncus coriaceus,Leathery Rush,20000000,0,0,0.7,3.2,Saturated Soil,0,0,0,Yes,None
-Juncus effusus,Soft Rush,45359240,0,0,0.7,6.5,Saturated Soil,0,0,0,Yes,None
-Juncus tenuis,Path Rush,29000000,0,0,0.7,2.9,Consistently Moist Soil,0,0,0,Yes,None
-Juncus torreyi,Torrey's Rush,25600000,0,0,0.7,2,Saturated Soil,0,0,0,Yes,None
-Khunia eupatorioides,False Boneset,512000,1,1,0.7,3,Dry to Average Soil,0,0,1,Yes,White
-Koeleria macrantha,Junegrass,2315000,0,0,0.7,2,Dry to Average Soil,0,0,0,Yes,None
-Kosteletzkya virginica,Virginia Saltmarsh Mallow,24000,1,0,0.7,4.9,Saturated Soil,0,1,1,Yes,Pink
-Leersia oryzoides,Rice Cutgrass,610000,0,1,0.7,4.9,Saturated Soil,0,0,0,Yes,None
-Lespedeza capitata,Round Headed Bushclover,275000,1,0,0.7,6.5,Dry to Average Soil,0,1,1,Yes,White
-Lespedeza frutescens,Shrubby Bushclover,175000,1,0,0.7,3.3,Dry to Average Soil,0,1,1,Yes,Purple
-Lespedeza virginica,Slender Bushclover,175000,1,0,0.7,4.9,Dry to Average Soil,0,1,1,Yes,Purple
-Liatris aspera,Rough Blazing Star,236000,1,1,0.7,4.9,Dry to Average Soil,0,1,1,Yes,Purple
-Liatris elegans,Pinkscale Blazing Star,417000,1,1,0.7,5.9,Dry to Average Soil,0,0,1,Yes,Pink
-Liatris garberi,Garber's Blazing Star,300000,1,1,0.7,2.6,Dry to Average Soil,0,1,1,Yes,Pink
-Liatris gracilis,Slender Gayfeather,100000,1,1,0.7,3.3,Dry to Average Soil,0,0,1,Yes,Purple
-Liatris graminifolia,Grassleaf Blazing Star,290000,1,1,0.7,4.9,Dry to Average Soil,0,1,1,Yes,Purple
-Liatris pycnostachya,Prairie Blazing Star,120000,1,1,0.7,4.9,Dry to Average Soil,0,1,1,Yes,Purple
-Liatris spicata,Spiked Gayfeather,100000,1,1,0.7,6.5,Dry to Average Soil,0,1,1,Yes,Purple
-Liatris squarrosa,Scaly Blazing Star,77000,1,1,0.7,3.3,Dry to Average Soil,0,1,0,Yes,Purple
-Liatris squarrulosa,Appalachian Blazing Star,100000,1,1,0.7,8.1,Dry to Average Soil,0,1,0,Yes,Purple
-Lilium superbum,Turk's Cap Lily,80812,1,1,0.7,9.8,Consistently Moist Soil,0,1,0,Yes,Orange
-Lobelia cardinalis,Cardinal Flower,11293000,1,1,0.7,4.9,Consistently Moist Soil,0,1,1,Yes,Red
-Lobelia puberula,Downy Lobelia,8000000,1,1,0.7,5.9,Consistently Moist Soil,0,1,1,Yes,Blue
-Lobelia siphilitica,Blue Lobelia,7760000,1,1,0.7,5.9,Consistently Moist Soil,0,1,1,Yes,Blue
-Ludwigia alternifolia,Seedbox,20800000,1,0,0.7,3.9,Saturated Soil,0,1,0,Yes,Yellow
-Ludwigia linearis,Narrowleaf Primrose Willow,20000000,1,0,0.7,3.3,Saturated Soil,0,1,1,Yes,Yellow
-Ludwigia maritima,Seaside Primrose Willow,20000000,1,0,0.7,3.3,Saturated Soil,0,1,1,Yes,Yellow
-Lupinus perennis,Perennial Blue Lupine,19000,1,0,0.7,2.6,Dry to Average Soil,1,1,0,Yes,Blue
-Lupinus polyphyllus,Bigleaf Lupine,23000,1,0,0.7,5,Dry to Average Soil,1,1,0,Yes,Blue
-Lycopus americanus,American Water Horehound,2106560,1,1,0.7,3.3,Consistently Moist Soil,0,1,0,Yes,White
-Mimulus ringens,Square Stemmed Monkeyflower,22900000,1,0,0.7,4.9,Saturated Soil,0,1,1,Yes,Purple
-Monarda fistulosa,Wild Bergamot,1272500,1,0,0.7,4.9,Dry to Average Soil,0,1,1,Yes,Purple
-Monarda media,Purple Bergamot,1300000,1,0,0.7,3.3,Dry to Average Soil,0,1,1,Yes,Purple
-Monarda punctata,Dotted Mint,1472000,1,0,0.7,3.3,Dry to Average Soil,0,1,1,Yes,Yellow
-Muhlenbergia capillaris,Pink Muhly,1400000,0,0,0.7,4,Dry to Average Soil,0,0,0,Yes,None
-Muhlenbergia schreberi,Nimblewill,1000000,0,0,0.7,3.3,Dry to Average Soil,0,0,0,Yes,None
-Oenothera biennis,Evening Primrose,1376000,1,1,0.7,6.5,Dry to Average Soil,0,1,1,Yes,Yellow
-Oenothera speciosa,Showy Evening Primrose,3040000,1,1,0.7,2,Dry to Average Soil,1,1,0,Yes,Pink
-Onoclea sensibilis,Sensitive Fern,6000000,0,0,0.7,3.2,Saturated Soil,0,0,0,Yes,None
-Panicum amarum,Coastal Panicgrass,325000,0,0,0.7,7,Dry to Average Soil,0,0,0,Yes,None
-Panicum anceps,Beaked Panicgrass,225000,0,0,0.7,4.2,Dry to Average Soil,0,0,0,Yes,None
-Panicum clandestinum,Deertongue,280000,0,0,0.7,4.9,Dry to Average Soil,0,0,0,Yes,None
-Panicum dichotomiflorum,Smooth Panicgrass,392000,0,0,0.7,6.5,Consistently Moist Soil,0,0,0,Yes,None
-Panicum rigidulum,Redtop Panicgrass,796636,0,0,0.7,4.9,Consistently Moist Soil,0,0,0,Yes,None
-Panicum virgatum,Switchgrass,259000,0,0,0.7,9,Consistently Moist Soil,0,0,0,Yes,None
-Parthenium integrifolium ,Wild Quinine,110000,1,1,0.7,3.9,Dry to Average Soil,1,1,0,Yes,White
-Peltandra virginica,Arrow Arum,600,0,0,0.7,2,Saturated Soil,0,0,0,Yes,None
-Penstemon australis,Eustis Lake Beardtongue,1000000,1,1,0.7,2.6,Dry to Average Soil,1,1,0,Yes,Purple
-Penstemon digitalis,Tall White Beardtongue,400000,1,1,0.7,6.5,Dry to Average Soil,1,1,0,Yes,White
-Penstemon hirsutus,Hairy Beardtongue,3877000,1,1,0.7,2.9,Dry to Average Soil,1,1,0,Yes,Purple
-Penstemon laevigatus,Appalachian Beardtongue,350000,1,1,0.7,4.9,Dry to Average Soil,1,1,0,Yes,Purple
-Penstemon multiflorus,Manyflower Beardtongue,400000,1,1,0.7,3,Dry to Average Soil,1,1,0,Yes,White
-Penthorum sedoides,Ditch Stonecrop,45000000,1,0,0.7,3.3,Saturated Soil,0,1,1,Yes,Yellow
-Phacelia campanularia,California Bluebells,813000,1,0,0.7,1.7,Dry to Average Soil,0,1,0,Yes,Blue
-Poa compressa,Canada Bluegrass,2393000,0,0,0.7,2.3,Dry to Average Soil,0,0,0,No,None
-Poa palustris,Fowl Bluegrass,1900000,0,0,0.7,4.9,Consistently Moist Soil,0,0,0,Yes,None
-Pontederia cordata,Pickerelweed,5000,1,0,0.7,4.9,Saturated Soil,0,1,1,Yes,Purple
-Puccinellia nuttalliana,Nuttall's Alkaligrass,1000000,0,0,0.7,2.6,Consistently Moist Soil,0,0,0,Yes,None
-Pycnanthemum incanum,Hoary Mountain Mint,4000000,1,0,0.7,3.3,Dry to Average Soil,0,1,1,Yes,Purple
-Pycnanthemum muticum,Bigleaf Mountain Mint,4000000,1,0,0.7,3.9,Consistently Moist Soil,0,1,1,Yes,White
-Pycnanthemum tenuifolium,Narrow Leaved Mountain Mint,6048000,1,0,0.7,3.9,Consistently Moist Soil,0,1,1,Yes,White
-Pycnanthemum virginianum,Virginia Mountain Mint,4000000,1,0,0.7,3.3,Dry to Average Soil,0,1,1,Yes,White
-Ratibida columnaris,Red Prairie Clover (Mexican Red Hat),500000,1,1,0.7,3.9,Dry to Average Soil,0,1,1,Yes,Yellow
-Ratibida columnifera,Yellow Prairie Coneflower,500000,1,1,0.7,3.9,Dry to Average Soil,0,1,1,Yes,Yellow
-Ratibida pinnata,Gray Coneflower,427500,1,1,0.7,5.5,Dry to Average Soil,0,1,1,Yes,Yellow
-Rhexia mariana,Maryland Meadow Beauty,2000000,1,1,0.7,2.6,Consistently Moist Soil,0,1,1,Yes,White
-Rhexia virginica,Virginia Meadowbeauty,2000000,1,1,0.7,2.9,Consistently Moist Soil,0,1,1,Yes,Pink
-Rhynchospora globularis,Globe Beaksedge,1000000,0,1,0.7,3.9,Consistently Moist Soil,0,0,0,Yes,None
-Rudbeckia amplexicaulis,Clasping Coneflower,796000,1,1,0.7,2.5,Dry to Average Soil,0,1,1,Yes,Yellow
-Rudbeckia fulgida,Orange Coneflower,500000,1,1,0.7,3.9,Dry to Average Soil,0,1,1,Yes,Yellow
-Rudbeckia hirta,Black Eyed Susan,1576000,1,0,0.7,3.3,Dry to Average Soil,0,1,1,Yes,Yellow
-Rudbeckia laciniata,Green Coneflower,252000,1,1,0.7,9.8,Consistently Moist Soil,0,1,1,Yes,Yellow
-Rudbeckia mohrii,Mohr's Coneflower,1000000,1,1,0.7,4,Consistently Moist Soil,0,1,1,Yes,Yellow
-Rudbeckia nitida,Shiny Coneflower,544000,1,1,0.7,5,Consistently Moist Soil,1,0,0,Yes,Yellow
-Rudbeckia subtomentosa,Sweet Black Eyed Susan,712000,1,1,0.7,6.5,Dry to Average Soil,0,1,1,Yes,Yellow
-Rudbeckia triloba,Brown Eyed Susan,536000,1,1,0.7,5.2,Dry to Average Soil,0,1,1,Yes,Yellow
-Sagittaria latifolia,Duck Potato,67000,0,1,0.7,3.9,Saturated Soil,0,1,1,Yes,White
-Saururus cernuus,Lizard's Tail,100000,0,1,0.7,3.9,Saturated Soil,0,1,0,Yes,White
-Schizachyrium scoparium,Little Bluestem,200000,0,0,0.7,4.9,Dry to Average Soil,0,0,0,Yes,None
-Scirpus acutus,Hard Stemmed Bulrush,206400,0,1,0.7,9.8,Saturated Soil,0,0,0,Yes,None
-Scirpus atrovirens,Green Bulrush,11339800,0,1,0.7,5.9,Saturated Soil,0,0,0,Yes,None
-Scirpus cyperinus,Woolgrass,36000000,0,1,0.7,6.5,Saturated Soil,0,0,0,Yes,None
-Scirpus expansus,Wood Bulrush,10000000,0,1,0.7,6.5,Saturated Soil,0,0,0,Yes,None
-Scirpus pendulus,Brown Bulrush,30000000,0,1,0.7,4.9,Saturated Soil,0,0,0,Yes,None
-Scirpus polyphyllus,Many Leaved Bulrush,20000000,0,1,0.7,4.9,Saturated Soil,0,0,0,Yes,None
-Scirpus robustus,Sturdy Bulrush,200000,0,1,0.7,3.5,Saturated Soil,0,0,0,Yes,None
-Scirpus validus,Soft Stemmed Bulrush,496000,0,1,0.7,8.1,Saturated Soil,0,0,0,Yes,None
-Scutellaria incana,Hoary Skullcap,272000,1,1,0.7,3.9,Dry to Average Soil,0,1,0,Yes,Blue
-Senna hebecarpa,Wild Senna,22000,1,0,0.7,6.5,Consistently Moist Soil,0,1,1,Yes,Yellow
-Senna marilandica,Maryland Senna,20500,1,0,0.7,6.5,Consistently Moist Soil,0,1,0,Yes,Yellow
-Silene armeria,Catchfly,3547000,1,0,0.7,1.8,Dry to Average Soil,0,1,0,No,Pink
-Silphium asteriscus var. angustatum,Starry Rosinweed,20000,1,1,0.7,8.8,Dry to Average Soil,0,1,0,Yes,Yellow
-Silphium asteriscus var. laevicaule,Starry Rosinweed,20000,1,1,0.7,8.8,Dry to Average Soil,0,1,0,Yes,Yellow
-Silphium integrifolium,Prairie Rosinweed,41000,1,1,0.7,4.9,Dry to Average Soil,0,1,0,Yes,Yellow
-Silphium laciniatum,Compassplant,20000,1,1,0.7,9.8,Dry to Average Soil,0,1,1,Yes,Yellow
-Silphium perfoliatum,Cup Plant,100000,1,1,0.7,8.1,Consistently Moist Soil,0,1,1,Yes,Yellow
-Silphium terebinthaceum,Prairie Dock,17000,1,1,0.7,9.8,Dry to Average Soil,0,1,1,Yes,Yellow
-Silphium trifoliatum,Whorled Rosinweed,20800,1,1,0.7,9.8,Dry to Average Soil,0,1,1,Yes,Yellow
-Sisyrinchium angustifolium,Narrowleaf Blue Eyed Grass,757000,0,1,0.7,1.6,Consistently Moist Soil,1,1,0,Yes,Blue
-Solidago bicolor,White Goldenrod,700000,1,1,0.7,4.9,Dry to Average Soil,0,1,1,Yes,White
-Solidago caesia,Blue Stem Goldenrod,700000,1,1,0.7,4.2,Dry to Average Soil,0,1,1,Yes,Yellow
-Solidago canadensis,Canada Goldenrod,4600000,1,1,0.7,6.5,Dry to Average Soil,0,1,1,Yes,Yellow
-Solidago fistulosa,Pine Barren Goldenrod,700000,1,1,0.7,6,Consistently Moist Soil,0,1,1,Yes,Yellow
-Solidago flexicaulis,Zig Zag Goldenrod,1362000,1,1,0.7,3.9,Dry to Average Soil,0,1,1,Yes,Yellow
-Solidago juncea,Early Goldenrod,2538000,1,0,0.7,5,Dry to Average Soil,0,1,0,Yes,Yellow
-Solidago nemoralis,Gray Goldenrod,1008000,1,0,0.7,4.2,Dry to Average Soil,0,1,1,Yes,Yellow
-Solidago odora,Licorice Scented Goldenrod,2268000,1,0,0.7,5.2,Dry to Average Soil,0,1,1,Yes,Yellow
-Solidago patula,Roughleaf Goldenrod,700000,1,1,0.7,6.5,Consistently Moist Soil,0,1,1,Yes,Yellow
-Solidago riddellii,Riddell's Goldenrod,1544000,1,1,0.7,4,Consistently Moist Soil,0,1,1,Yes,Yellow
-Solidago rigida,Stiff Goldenrod,1009000,1,1,0.7,6,Dry to Average Soil,0,1,1,Yes,Yellow
-Solidago rugosa,Wrinkleleaf Goldenrod,1000000,1,0,0.7,8.1,Consistently Moist Soil,0,1,1,Yes,Yellow
-Solidago sempervirens,Seaside Goldenrod,700000,1,1,0.7,5,Consistently Moist Soil,0,1,0,Yes,Yellow
-Solidago speciosa,Showy Goldenrod,1340000,1,1,0.7,6.5,Dry to Average Soil,0,0,1,Yes,Yellow
-Solidago stricta,Wand Goldenrod,1000000,1,1,0.7,6,Consistently Moist Soil,0,1,1,Yes,Yellow
-Sorghastrum elliotti,Slender Indiangrass,175000,0,0,0.7,6.5,Saturated Soil,0,0,0,Yes,None
-Sorghastrum nutans,Indiangrass,175000,0,0,0.7,8.5,Dry to Average Soil,0,0,0,Yes,None
-Sorghastrum secundum,Lopsided Indiangrass,175000,0,0,0.7,6,Dry to Average Soil,0,0,0,Yes,None
-Sparganium americanum,Lesser Burreed,50000,0,1,0.7,3.3,Saturated Soil,0,0,0,Yes,None
-Sparganium eurycarpum,Giant Burreed,10000,0,1,0.7,4.2,Saturated Soil,0,0,0,Yes,None
-Spartina pectinata,Prairie Cordgrass,106000,0,1,0.7,8.1,Consistently Moist Soil,0,0,0,Yes,None
-Sporobolus asper,Rough Dropseed,760000,0,0,0.7,4.9,Dry to Average Soil,0,0,0,Yes,None
-Sporobolus cryptandrus,Sand Dropseed,5600000,0,0,0.7,3.3,Dry to Average Soil,0,0,0,Yes,None
-Sporobolus heterolepis,Prairie Dropseed,1200000,0,1,0.7,3.3,Dry to Average Soil,0,0,0,Yes,None
-Sporobolus junceus,Pineywoods Dropseed,1000000,0,0,0.7,3,Dry to Average Soil,0,0,0,Yes,None
-Thalictrum pubescens,Tall Meadow Rue,192000,1,1,0.7,9.8,Saturated Soil,0,1,0,Yes,White
-Tradescantia ohiensis,Ohio Spiderwort,128000,1,1,0.7,4.1,Dry to Average Soil,1,1,0,Yes,Blue
-Tradescantia subaspera,Zig Zag Spiderwort,128000,1,1,0.7,4,Dry to Average Soil,1,1,0,Yes,Blue
-Tradescantia virginiana,Virginia Spiderwort,175000,1,1,0.7,2.9,Dry to Average Soil,1,1,0,Yes,Blue
-Tridens flavus,Purpletop,465000,0,0,0.7,5.9,Dry to Average Soil,0,0,0,Yes,None
-Trifolium incarnatum,Crimson Clover,150000,1,0,0.7,2.6,Dry to Average Soil,1,1,0,No,Red
-Trifolium pratense,Red Clover,272000,1,0,0.7,2.6,Dry to Average Soil,1,1,0,No,Pink
-Trifolium repens,White Clover,776000,1,0,0.7,1,Dry to Average Soil,0,1,1,No,White
-Tripsacum dactyloides,Eastern Gamagrass,7000,0,1,0.7,9.8,Consistently Moist Soil,0,0,0,Yes,None
-Typha angustifolia,Narrowleaf Cattail,14000000,0,0,0.7,5,Saturated Soil,0,0,0,No,None
-Typha latifolia,Broadleaf Cattail,14000000,0,0,0.7,9.8,Saturated Soil,0,0,0,Yes,None
-Veratrum viride,False Hellebore,31780,1,1,0.7,6.5,Saturated Soil,0,1,0,Yes,Green
-Verbena hastata,Blue Vervain,1488000,1,0,0.7,4.9,Consistently Moist Soil,0,1,1,Yes,Purple
-Verbena stricta,Hoary Vervain,471000,1,0,0.7,3.9,Dry to Average Soil,0,1,1,Yes,Purple
-Verbena urticifolia,White Vervain,1008000,1,0,0.7,4.9,Consistently Moist Soil,0,1,1,Yes,White
-Verbesina alternifolia,Wingstem,145000,1,1,0.7,9.8,Consistently Moist Soil,0,1,1,Yes,Yellow
-Vernonia acaulis,Stemless Ironweed,300000,1,1,0.7,3.9,Dry to Average Soil,0,1,0,Yes,Purple
-Vernonia angustifolia,Tall Ironweed,300000,1,1,0.7,3.9,Dry to Average Soil,0,1,0,Yes,Purple
-Vernonia gigantea,Giant Ironweed,320000,1,1,0.7,9.8,Consistently Moist Soil,0,1,1,Yes,Purple
-Vernonia noveboracensis,New York Ironweed,300000,1,1,0.7,6.5,Consistently Moist Soil,0,1,1,Yes,Purple
-Veronicastrum virginicum,Culver's Root,7761000,1,0,0.7,6.5,Consistently Moist Soil,0,1,0,Yes,White
-Zizania aquatica,Wild Rice,11000,0,1,0.7,9.8,Saturated Soil,0,0,0,Yes,None
-Zizia aurea,Golden Alexanders,172000,1,1,0.7,3.3,Consistently Moist Soil,1,0,0,Yes,Yellow
+species,common_name,seeds_per_lb,forb,fall,germ_rate,ht,habitat,spring,summer,autumn,Native,bloom_color,min,max
+Achillea millefolium*,Common Yarrow,2790000,1,1,0.7,2.5,Dry to Average Soil,0,1,1,No,White,10,500
+Acorus americanus,Sweetflag,70000,1,1,0.7,3,Saturated Soil,1,1,0,Yes,Yellow,1,500
+Agastache foeniculum,Lavender Hyssop,1362000,1,1,0.7,3.3,Dry to Average Soil,0,1,0,Yes,Blue,1,500
+Agrimonia parviflora,Small Flowered Agrimony,288000,1,1,0.7,4,Consistently Moist Soil,0,1,1,Yes,Yellow,1,500
+Agrostis alba*,Redtop,4850000,0,0,0.7,3,Consistently Moist Soil,0,0,0,No,None,15,500
+Agrostis hyemalis,Winter Bentgrass,8500000,0,0,0.7,2.9,Dry to Average Soil,0,0,0,Yes,None,15,500
+Agrostis perennans,Autumn Bentgrass,8000000,0,0,0.7,3.3,Dry to Average Soil,0,0,0,Yes,None,15,500
+Agrostis scabra,Ticklegrass,5000000,0,0,0.7,2.9,Dry to Average Soil,0,0,0,Yes,None,15,500
+Alisma subcordatum,Mud Plantain,825000,1,1,0.7,3.3,Saturated Soil,0,1,0,Yes,White,1,500
+Allium cernuum,Nodding Onion,123000,1,1,0.7,2.6,Dry to Average Soil,0,1,0,Yes,Pink,1,500
+Amsonia ciliata,Fringed Bluestar,45400,1,1,0.7,2.3,Dry to Average Soil,1,0,0,Yes,Blue,1,500
+Andropogon gerardii,Big Bluestem,144000,0,0,0.7,6,Dry to Average Soil,0,0,0,Yes,None,1,500
+Andropogon glomeratus ,Bushy Bluestem,544000,0,0,0.7,4,Consistently Moist Soil,0,0,0,Yes,None,1,500
+Andropogon glomeratus var. glaucopsis,Purple Bluestem,600000,0,0,0.7,3,Consistently Moist Soil,0,0,0,Yes,None,1,500
+Andropogon ternarius,Splitbeard Bluestem,216000,0,0,0.7,4.5,Dry to Average Soil,0,0,0,Yes,None,1,500
+Andropogon virginicus,Broomsedge,800000,0,0,0.7,3.5,Dry to Average Soil,0,0,0,Yes,None,1,500
+Anemone canadensis,Canadian Anemone,131660,1,1,0.7,2,Consistently Moist Soil,1,1,0,Yes,White,1,500
+Anemone virginiana,Thimbleweed,448000,1,1,0.7,2,Dry to Average Soil,1,1,0,Yes,White,1,500
+Apocynum cannabinum,Indian Hemp,500000,0,1,0.7,3,Dry to Average Soil,1,1,1,Yes,None,1,500
+Aquilegia canadensis,Eastern Columbine,504000,1,1,0.7,2,Dry to Average Soil,1,1,0,Yes,Red,1,500
+Asclepias incarnata,Swamp Milkweed,70000,1,1,0.7,3,Consistently Moist Soil,0,1,0,Yes,Pink,1,500
+Asclepias syriaca,Common Milkweed,70000,1,1,0.7,3,Dry to Average Soil,0,1,0,Yes,Purple,1,500
+Asclepias tuberosa,Butterfly Milkweed,70000,1,1,0.7,3,Dry to Average Soil,0,1,0,Yes,Orange,1,500
+Aster divaricatus,White Wood Aster,670000,1,1,0.7,3.3,Dry to Average Soil,0,1,1,Yes,White,1,500
+Aster laevis,Smooth Aster,1014000,1,1,0.7,2.8,Dry to Average Soil,0,0,1,Yes,Purple,1,500
+Aster lowrieanus,Lowrie's Aster,2000000,1,1,0.7,3,Dry to Average Soil,0,0,1,Yes,Blue,10,500
+Aster macrophyllus,Big Leaf Aster,800000,1,1,0.7,3.5,Dry to Average Soil,0,1,1,Yes,Purple,1,500
+Aster novae-angliae,New England Aster,1100000,1,1,0.7,3.5,Consistently Moist Soil,0,1,1,Yes,Purple,1,500
+Aster novi-belgii,New York Aster,700000,1,1,0.7,3,Consistently Moist Soil,0,0,1,Yes,Blue,1,500
+Aster oblongifolius,Aromatic Aster,816000,1,1,0.7,3.3,Dry to Average Soil,0,1,1,Yes,Purple,1,500
+Aster patens,Late Purple Aster,800000,1,1,0.7,2.5,Dry to Average Soil,0,0,1,Yes,Purple,1,500
+Aster pilosus,Heath Aster,700000,1,1,0.7,3.5,Dry to Average Soil,0,0,1,Yes,White,1,500
+Aster prenanthoides,Zig Zag Aster,700000,1,1,0.7,2.8,Consistently Moist Soil,0,1,1,Yes,Blue,1,500
+Aster puniceus,Purple Stemmed Aster,7000000,1,1,0.7,6,Consistently Moist Soil,0,0,1,Yes,Blue,15,500
+Aster sagittifolius,Arrow Leaved Aster,2000000,1,1,0.7,2.8,Dry to Average Soil,0,1,1,Yes,White,10,500
+Aster spectabilis,Showy Aster,700000,1,1,0.7,2.9,Dry to Average Soil,0,1,1,Yes,Blue,1,500
+Aster umbellatus,Flat Topped White Aster,1072000,1,1,0.7,4,Consistently Moist Soil,0,1,1,Yes,White,1,500
+Baptisia alba,White Wild Indigo,25000,1,0,0.7,2.7,Dry to Average Soil,0,1,0,Yes,White,1,500
+Baptisia albescens,Spiked Wild Indigo,25000,1,0,0.7,4,Dry to Average Soil,1,1,0,Yes,White,1,500
+Baptisia australis,Blue False Indigo,22000,1,0,0.7,3.5,Dry to Average Soil,1,1,0,Yes,Purple,1,500
+Baptisia cinerea,Grayhairy Wild Indigo,22000,1,0,0.7,2.9,Dry to Average Soil,1,1,0,Yes,Yellow,1,500
+Baptisia pendula,Largeleaf Wild Indigo,25000,1,0,0.7,2.8,Dry to Average Soil,1,1,0,Yes,White,1,500
+Baptisia perfoliata,Catbells,22000,1,0,0.7,2.9,Dry to Average Soil,1,0,0,Yes,Yellow,1,500
+Baptisia tinctoria,Wild Indigo,300000,1,0,0.7,3.3,Dry to Average Soil,0,1,0,Yes,Yellow,1,500
+Bidens aristosa,Showy Tickseed Sunflower,130000,1,0,0.7,3.7,Consistently Moist Soil,0,1,1,Yes,Yellow,1,500
+Bidens cernua,Nodding Bur Marigold,130000,1,0,0.7,3.3,Saturated Soil,0,1,1,Yes,Yellow,1,500
+Bidens frondosa,Beggartick,80000,1,0,0.7,2,Consistently Moist Soil,0,1,1,Yes,Yellow,1,500
+Blephilia ciliata,Downy Pagoda Plant,6400000,1,0,0.7,2.6,Dry to Average Soil,1,1,0,Yes,Purple,15,500
+Boltonia asteroides,White Doll's Daisy,2592340,1,1,0.7,5.5,Consistently Moist Soil,0,1,1,Yes,White,10,500
+Bouteloua curtipendula,Sideoats Grama,159000,0,1,0.7,3.3,Dry to Average Soil,0,0,0,Yes,None,1,500
+Bouteloua gracilis,Blue Grama,710000,0,0,0.7,2,Dry to Average Soil,0,0,0,Yes,None,1,500
+Buchloe dactyloides,Buffalograss,335000,0,0,0.7,1,Dry to Average Soil,0,0,0,Yes,None,1,500
+Calamagrostis canadensis,Canada Bluejoint,3837000,0,0,0.7,4,Saturated Soil,0,0,0,Yes,None,10,500
+Calendula officinalis*,Calendula,59000,1,0,0.7,2,Dry to Average Soil,0,1,1,No,Orange,1,500
+Carex alata,Broadwing Sedge,800000,0,1,0.7,2.5,Saturated Soil,0,0,0,Yes,None,1,500
+Carex albolutescens,Greenwhite Sedge,1000000,0,1,0.7,3,Saturated Soil,0,0,0,Yes,None,1,500
+Carex comosa,Cosmos Sedge,480000,0,1,0.7,2.6,Saturated Soil,0,0,0,Yes,None,1,500
+Carex crinita,Nodding Sedge,650000,0,1,0.7,2.8,Saturated Soil,0,0,0,Yes,None,1,500
+Carex folliculata,Northern Long Sedge,300000,0,1,0.7,3.2,Saturated Soil,0,0,0,Yes,None,1,500
+Carex frankii,Frank's Sedge,500000,0,1,0.7,2.6,Saturated Soil,0,0,0,Yes,None,1,500
+Carex glaucescens,Southern Waxy Sedge,400000,0,1,0.7,3.5,Saturated Soil,0,0,0,Yes,None,1,500
+Carex granularis var. haleana,Limestone Meadow Sedge,700000,0,1,0.7,2.9,Saturated Soil,0,0,0,Yes,None,1,500
+Carex grayi,Gray's Sedge,20430,0,1,0.7,3.3,Saturated Soil,0,0,0,Yes,None,1,500
+Carex gynandra,Nodding Sedge,600000,0,1,0.7,4,Saturated Soil,0,0,0,Yes,None,1,500
+Carex intumescens,Star Sedge,40000,0,1,0.7,3.3,Saturated Soil,0,0,0,Yes,None,1,500
+Carex lacustris,Lake Bank Sedge,512000,0,1,0.7,4,Saturated Soil,0,0,0,Yes,None,1,500
+Carex lupulina,Hop Sedge,94696,0,1,0.7,4.2,Saturated Soil,0,0,0,Yes,None,1,500
+Carex lurida,Lurid Sedge,250000,0,1,0.7,3.6,Saturated Soil,0,0,0,Yes,None,1,500
+Carex scoparia,Blunt Broomsedge,1344000,0,1,0.7,3.3,Saturated Soil,0,0,0,Yes,None,1,500
+Carex squarrosa,Squarrose Sedge,90000,0,1,0.7,2.9,Saturated Soil,0,0,0,Yes,None,1,500
+Carex stipata,Awl Sedge,544000,0,1,0.7,3.3,Saturated Soil,0,0,0,Yes,None,1,500
+Carex stricta,Tussock Sedge,1800000,0,1,0.7,3,Saturated Soil,0,0,0,Yes,None,10,500
+Carex vulpinoidea,Fox Sedge,1297000,0,1,0.7,3.3,Saturated Soil,0,0,0,Yes,None,1,500
+Centaurea cyanus*,Cornflower,90000,1,0,0.7,3.9,Dry to Average Soil,1,1,1,No,Blue,1,500
+Chamaecrista fasciculata,Partridge Pea,65000,1,0,0.7,2.9,Dry to Average Soil,0,1,1,Yes,Yellow,1,500
+Chamaecrista nictitans,Sensitive Pea,206570,1,0,0.7,1.6,Dry to Average Soil,0,1,1,Yes,Yellow,1,500
+Chasmanthium latifolium,River Oats,90000,0,1,0.7,4,Consistently Moist Soil,0,0,0,Yes,None,1,500
+Chasmanthium laxum,Slender Woodoats,85000,0,1,0.7,3.8,Consistently Moist Soil,0,0,0,Yes,None,1,500
+Chelone glabra,Turtlehead,1472000,1,1,0.7,3,Saturated Soil,0,1,1,Yes,White,1,500
+Cichorium intybus*,Blue Chicory,426000,1,0,0.7,3.2,Dry to Average Soil,0,1,1,No,Blue,1,500
+Cimicifuga racemosa,Black Cohosh,131660,1,1,0.7,4,Dry to Average Soil,0,1,0,Yes,White,1,500
+Cinna arundinacea,Wood Reedgrass,1000000,0,1,0.7,4,Consistently Moist Soil,0,0,0,Yes,None,1,500
+Clarkia elegans,Clarkia,1141000,1,0,0.7,2.5,Dry to Average Soil,1,1,0,Yes,Pink,1,500
+Coreopsis basalis,Goldenmane Tickseed,512000,1,0,0.7,2.3,Dry to Average Soil,1,1,0,Yes,Yellow,1,500
+Coreopsis grandiflora,Largeflower Coreopsis,200000,1,1,0.7,3.3,Dry to Average Soil,1,1,0,Yes,Yellow,1,500
+Coreopsis lanceolata,Lance Leaf Coreopsis,221000,1,0,0.7,3.3,Dry to Average Soil,1,1,0,Yes,Yellow,1,500
+Coreopsis leavenworthii,Leavenworth's Tickseed,2426000,1,1,0.7,3,Consistently Moist Soil,1,1,1,Yes,Yellow,10,500
+Coreopsis major,Greater Tickseed,200000,1,1,0.7,3.3,Dry to Average Soil,1,1,0,Yes,Yellow,1,500
+Coreopsis tinctoria,Plains Coreopsis,3222000,1,0,0.7,4.2,Consistently Moist Soil,0,1,1,Yes,Yellow,10,500
+Coreopsis tripteris,Tall Tickseed,200000,1,1,0.7,6,Dry to Average Soil,0,1,1,Yes,Yellow,1,500
+Coreopsis verticillata,Threadleaf Coreopsis,200000,1,1,0.7,3.6,Dry to Average Soil,1,1,0,Yes,Yellow,1,500
+Cosmos bipinnatus*,Cosmos ,65000,1,0,0.7,3.2,Dry to Average Soil,0,1,1,No,Pink,1,500
+Cosmos sulphureus*,Sulphur Cosmos,61000,1,0,0.7,3.5,Dry to Average Soil,0,1,1,No,Yellow,1,500
+Croton capitatus,Woolly Croton,20000,1,0,0.7,3.9,Dry to Average Soil,0,1,1,Yes,White,1,500
+Dalea candida,White Prairie Clover,260000,1,0,0.7,3.3,Dry to Average Soil,0,1,0,Yes,White,1,500
+Dalea purpurea,Purple Prairie Clover,300000,1,0,0.7,2.9,Dry to Average Soil,0,1,1,Yes,Purple,1,500
+Daucus carota*,Queen Anne's Lace,454000,1,1,0.7,3.2,Dry to Average Soil,0,1,1,No,White,1,500
+Desmanthus illinoensis,Illinois Bundleflower,120000,1,0,0.7,3.6,Dry to Average Soil,0,1,0,Yes,White,1,500
+Desmodium canadense,Showy Ticktrefoil,80000,1,0,0.7,3,Dry to Average Soil,0,1,0,Yes,Purple,1,500
+Desmodium glabellum,Dillenius' Ticktrefoil,100000,1,0,0.7,4,Dry to Average Soil,0,1,0,Yes,Pink,1,500
+Desmodium paniculatum,Panicled Ticktrefoil,200000,1,0,0.7,3.2,Dry to Average Soil,0,1,0,Yes,Purple,1,500
+Desmodium tortuosum,Dixie Ticktrefoil,200640,1,0,0.7,7,Dry to Average Soil,0,1,0,Yes,Purple,1,500
+Dulichium arundinaceum,Threeway Sedge,500000,0,1,0.7,3.3,Saturated Soil,0,0,0,Yes,None,1,500
+Echinacea pallida,Pale Purple Coneflower,106000,1,1,0.7,4,Dry to Average Soil,0,1,0,Yes,Purple,1,500
+Echinacea purpurea,Purple Coneflower,116000,1,1,0.7,4,Dry to Average Soil,0,1,1,Yes,Purple,1,500
+Elymus canadensis,Canada Wildrye,114000,0,0,0.7,4,Dry to Average Soil,0,0,0,Yes,None,1,500
+Elymus hystrix,Bottlebrush Grass,75000,0,0,0.7,3.4,Dry to Average Soil,0,0,0,Yes,None,1,500
+Elymus riparius,Riverbank Wildrye,125000,0,0,0.7,4,Consistently Moist Soil,0,0,0,Yes,None,1,500
+Elymus virginicus,Virginia Wildrye,73000,0,0,0.7,4,Consistently Moist Soil,0,0,0,Yes,None,1,500
+Eragrostis hirsuta,Bigtop Lovegrass,1000000,0,0,0.7,4.2,Dry to Average Soil,0,0,0,Yes,None,1,500
+Eragrostis spectabilis,Purple Lovegrass,1000000,0,0,0.7,3,Dry to Average Soil,0,0,0,Yes,None,1,500
+Erianthus contortus,Shortbeard Plumegrass,200000,0,0,0.7,5.6,Consistently Moist Soil,0,0,0,Yes,None,1,500
+Eriophorum virginicum,Tawny Cottongrass,180000,0,1,0.7,4.5,Saturated Soil,0,0,0,Yes,None,1,500
+Eryngium aquaticum var. aquaticum,Water Rattlesnake Master,200000,1,1,0.7,2,Saturated Soil,0,1,1,Yes,Blue,1,500
+Eryngium aquaticum var. ravenelii,Water Rattlesnake Master,200000,1,1,0.7,2,Saturated Soil,0,1,1,Yes,White,1,500
+Eryngium yuccifolium,Rattlesnake Master,124000,1,1,0.7,4,Dry to Average Soil,0,1,1,Yes,White,1,500
+Eschscholzia californica,California Poppy,346000,1,0,0.7,1.5,Dry to Average Soil,1,1,0,Yes,Orange,1,500
+Eupatorium coelestinum,Mistflower,1500000,1,1,0.7,3.3,Consistently Moist Soil,0,1,1,Yes,Blue,1,500
+Eupatorium fistulosum,Joe Pye Weed,2000000,1,1,0.7,5.5,Consistently Moist Soil,0,1,1,Yes,Pink,10,500
+Eupatorium maculatum,Spotted Joe Pye Weed,1440000,1,1,0.7,6,Consistently Moist Soil,0,1,1,Yes,Purple,1,500
+Eupatorium perfoliatum,Boneset,2880000,1,1,0.7,4.6,Consistently Moist Soil,0,1,1,Yes,White,10,500
+Eupatorium purpureum,Purple Node Joe Pye Weed,672000,1,1,0.7,5.8,Consistently Moist Soil,0,1,1,Yes,Purple,1,500
+Eupatorium rugosum,White Snakeroot,2400000,1,1,0.7,4,Dry to Average Soil,0,1,1,Yes,White,10,500
+Euthamia caroliniana,Slender Goldentop,5000000,1,1,0.7,3.3,Dry to Average Soil,0,1,1,Yes,Yellow,15,500
+Euthamia graminifolia,Grass Leaved Goldenrod,5600000,1,1,0.7,3,Consistently Moist Soil,0,1,1,Yes,Yellow,15,500
+Festuca arundinacea*,Tall Fescue,205000,0,0,0.7,6,Dry to Average Soil,0,0,0,No,None,1,500
+Festuca ovina var. duriuscula*,Hard Fescue,592000,0,0,0.7,2.6,Dry to Average Soil,0,0,0,No,None,1,500
+Festuca ovina var. glauca*,Blue Fescue,550000,0,0,0.7,2.6,Dry to Average Soil,0,0,0,No,None,1,500
+Festuca ovina*,Sheep Fescue,530000,0,0,0.7,2.6,Dry to Average Soil,0,0,0,No,None,1,500
+Festuca rubra,Creeping Red Fescue,245000,0,0,0.7,3.3,Dry to Average Soil,0,0,0,No,None,1,500
+Festuca rubra ssp. Commutata*,Chewings Fescue,500000,0,0,0.7,3.3,Dry to Average Soil,0,0,0,No,None,1,500
+Gaillardia aristata,Perennial Gaillardia,186000,1,1,0.7,2.3,Dry to Average Soil,1,1,1,Yes,Red,1,500
+Gaillardia pulchella,Annual Gaillardia,238000,1,1,0.7,2,Dry to Average Soil,1,1,1,Yes,Red,1,500
+Gaura biennis,Biennial Beeblossom,43130,1,1,0.7,5.5,Consistently Moist Soil,0,1,1,Yes,Pink,1,500
+Gentiana clausa,Meadow Bottle Gentian,2980000,1,1,0.7,3.3,Consistently Moist Soil,0,0,1,Yes,Blue,10,500
+Geum canadense,White Avens,400000,1,1,0.7,1.5,Dry to Average Soil,1,1,0,Yes,White,1,500
+Glyceria canadensis,Rattlesnake Grass,1184000,0,1,0.7,3.2,Saturated Soil,0,0,0,Yes,None,1,500
+Glyceria grandis,American Mannagrass,659000,0,1,0.7,4,Saturated Soil,0,0,0,Yes,None,1,500
+Glyceria septentrionalis,Floating Mannagrass,300000,0,1,0.7,5,Saturated Soil,0,0,0,Yes,None,1,500
+Glyceria striata,Fowl Mannagrass,1540000,0,1,0.7,4,Saturated Soil,0,0,0,Yes,None,1,500
+Helenium autumnale,Sneezeweed,1464000,1,1,0.7,4.5,Consistently Moist Soil,0,1,1,Yes,Yellow,1,500
+Helenium flexuosum,Purpleheaded Sneezeweed,2000000,1,1,0.7,3.3,Consistently Moist Soil,1,1,0,Yes,Yellow,10,500
+Helianthus angustifolius,Narrowleaf Sunflower,504000,1,1,0.7,6,Consistently Moist Soil,0,0,1,Yes,Yellow,1,500
+Helianthus giganteus,Giant Sunflower,200000,1,1,0.7,8,Consistently Moist Soil,0,1,1,Yes,Yellow,1,500
+Helianthus maximilianii,Maximilian's Sunflower,216000,1,1,0.7,8,Dry to Average Soil,0,1,1,Yes,Yellow,1,500
+Helianthus occidentalis var. dowellianus,McDowell's Sunflower,178000,1,1,0.7,4,Dry to Average Soil,0,1,1,Yes,Yellow,1,500
+Helianthus radula,Rayless Sunflower,200000,1,1,0.7,2.6,Consistently Moist Soil,0,1,1,Yes,Purple,1,500
+Heliopsis helianthoides,Ox-Eye Sunflower,105000,1,1,0.7,4,Consistently Moist Soil,0,1,1,Yes,Yellow,1,500
+Hibiscus moscheutos,Crimsoneyed Rosemallow,47000,1,0,0.7,5.5,Consistently Moist Soil,0,1,1,Yes,White,1,500
+Hordeum jubatum,Foxtail Barley,272400,0,0,0.7,2.2,Dry to Average Soil,0,0,0,Yes,None,1,500
+Hypericum punctatum,Spotted St. John's Wort,2000000,1,0,0.7,3.9,Consistently Moist Soil,0,1,0,Yes,Yellow,10,500
+Hypericum pyramidatum,Giant St. John's Wort,1800000,1,0,0.7,4.5,Consistently Moist Soil,0,1,0,Yes,Yellow,10,500
+Iris versicolor,Blue Flag Iris,18000,1,1,0.7,2.9,Saturated Soil,1,1,0,Yes,Blue,1,500
+Iris virginica,Virginia Iris,22000,1,1,0.7,3.2,Saturated Soil,1,0,0,Yes,Blue,1,500
+Juncus canadensis,Canadian Rush,30000000,0,0,0.7,3,Saturated Soil,0,0,0,Yes,None,20,500
+Juncus coriaceus,Leathery Rush,20000000,0,0,0.7,3.2,Saturated Soil,0,0,0,Yes,None,20,500
+Juncus effusus,Soft Rush,45359240,0,0,0.7,3,Saturated Soil,0,0,0,Yes,None,20,500
+Juncus tenuis,Path Rush,29000000,0,0,0.7,2.9,Consistently Moist Soil,0,0,0,Yes,None,20,500
+Juncus torreyi,Torrey's Rush,25600000,0,0,0.7,2,Saturated Soil,0,0,0,Yes,None,20,500
+Khunia eupatorioides,False Boneset,512000,1,1,0.7,3,Dry to Average Soil,0,0,1,Yes,White,1,500
+Koeleria macrantha,Junegrass,2315000,0,0,0.7,2,Dry to Average Soil,0,0,0,Yes,None,10,500
+Kosteletzkya virginica,Virginia Saltmarsh Mallow,24000,1,0,0.7,4.9,Saturated Soil,0,1,1,Yes,Pink,1,500
+Leersia oryzoides,Rice Cutgrass,610000,0,1,0.7,4.9,Saturated Soil,0,0,0,Yes,None,1,500
+Lespedeza capitata,Round Headed Bushclover,275000,1,0,0.7,4,Dry to Average Soil,0,1,1,Yes,White,1,500
+Lespedeza frutescens,Shrubby Bushclover,175000,1,0,0.7,3.3,Dry to Average Soil,0,1,1,Yes,Purple,1,500
+Lespedeza virginica,Slender Bushclover,175000,1,0,0.7,4.9,Dry to Average Soil,0,1,1,Yes,Purple,1,500
+Liatris aspera,Rough Blazing Star,236000,1,1,0.7,4.5,Dry to Average Soil,0,1,1,Yes,Purple,1,500
+Liatris elegans,Pinkscale Blazing Star,417000,1,1,0.7,3,Dry to Average Soil,0,0,1,Yes,Pink,1,500
+Liatris garberi,Garber's Blazing Star,300000,1,1,0.7,2.6,Dry to Average Soil,0,1,1,Yes,Pink,1,500
+Liatris gracilis,Slender Gayfeather,100000,1,1,0.7,3.3,Dry to Average Soil,0,0,1,Yes,Purple,1,500
+Liatris graminifolia,Grassleaf Blazing Star,290000,1,1,0.7,4.9,Dry to Average Soil,0,1,1,Yes,Purple,1,500
+Liatris pycnostachya,Prairie Blazing Star,120000,1,1,0.7,5,Dry to Average Soil,0,1,1,Yes,Purple,1,500
+Liatris spicata,Spiked Gayfeather,100000,1,1,0.7,4.3,Dry to Average Soil,0,1,1,Yes,Purple,1,500
+Liatris squarrosa,Scaly Blazing Star,77000,1,1,0.7,3.3,Dry to Average Soil,0,1,0,Yes,Purple,1,500
+Liatris squarrulosa,Appalachian Blazing Star,100000,1,1,0.7,5,Dry to Average Soil,0,1,0,Yes,Purple,1,500
+Lilium superbum,Turk's Cap Lily,80812,1,1,0.7,5.5,Consistently Moist Soil,0,1,0,Yes,Orange,1,500
+Lobelia cardinalis,Cardinal Flower,11293000,1,1,0.7,4,Consistently Moist Soil,0,1,1,Yes,Red,20,500
+Lobelia puberula,Downy Lobelia,8000000,1,1,0.7,3.5,Consistently Moist Soil,0,1,1,Yes,Blue,15,500
+Lobelia siphilitica,Blue Lobelia,7760000,1,1,0.7,2.5,Consistently Moist Soil,0,1,1,Yes,Blue,15,500
+Ludwigia alternifolia,Seedbox,20800000,1,0,0.7,3.9,Saturated Soil,0,1,0,Yes,Yellow,20,500
+Ludwigia linearis,Narrowleaf Primrose Willow,20000000,1,0,0.7,3.3,Saturated Soil,0,1,1,Yes,Yellow,20,500
+Ludwigia maritima,Seaside Primrose Willow,20000000,1,0,0.7,3.3,Saturated Soil,0,1,1,Yes,Yellow,20,500
+Lupinus perennis,Perennial Blue Lupine,19000,1,0,0.7,2.6,Dry to Average Soil,1,1,0,Yes,Blue,1,500
+Lupinus polyphyllus,Bigleaf Lupine,23000,1,0,0.7,4,Dry to Average Soil,1,1,0,Yes,Blue,1,500
+Lycopus americanus,American Water Horehound,2106560,1,1,0.7,3.3,Consistently Moist Soil,0,1,0,Yes,White,10,500
+Mimulus ringens,Square Stemmed Monkeyflower,22900000,1,0,0.7,4.9,Saturated Soil,0,1,1,Yes,Purple,20,500
+Monarda fistulosa,Wild Bergamot,1272500,1,0,0.7,4,Dry to Average Soil,0,1,1,Yes,Purple,1,500
+Monarda media,Purple Bergamot,1300000,1,0,0.7,3.3,Dry to Average Soil,0,1,1,Yes,Purple,1,500
+Monarda punctata,Dotted Mint,1472000,1,0,0.7,3.3,Dry to Average Soil,0,1,1,Yes,Yellow,1,500
+Muhlenbergia capillaris,Pink Muhly,1400000,0,0,0.7,4,Dry to Average Soil,0,0,0,Yes,None,1,500
+Muhlenbergia schreberi,Nimblewill,1000000,0,0,0.7,3.3,Dry to Average Soil,0,0,0,Yes,None,1,500
+Oenothera biennis,Evening Primrose,1376000,1,1,0.7,4,Dry to Average Soil,0,1,1,Yes,Yellow,1,500
+Oenothera speciosa,Showy Evening Primrose,3040000,1,1,0.7,2,Dry to Average Soil,1,1,0,Yes,Pink,10,500
+Onoclea sensibilis,Sensitive Fern,6000000,0,0,0.7,3.2,Saturated Soil,0,0,0,Yes,None,15,500
+Panicum amarum,Coastal Panicgrass,325000,0,0,0.7,7,Dry to Average Soil,0,0,0,Yes,None,1,500
+Panicum anceps,Beaked Panicgrass,225000,0,0,0.7,4.2,Dry to Average Soil,0,0,0,Yes,None,1,500
+Panicum clandestinum,Deertongue,280000,0,0,0.7,4.9,Dry to Average Soil,0,0,0,Yes,None,1,500
+Panicum dichotomiflorum,Smooth Panicgrass,392000,0,0,0.7,3,Consistently Moist Soil,0,0,0,Yes,None,1,500
+Panicum rigidulum,Redtop Panicgrass,796636,0,0,0.7,4.9,Consistently Moist Soil,0,0,0,Yes,None,1,500
+Panicum virgatum,Switchgrass,259000,0,0,0.7,5,Consistently Moist Soil,0,0,0,Yes,None,1,500
+Parthenium integrifolium ,Wild Quinine,110000,1,1,0.7,3.9,Dry to Average Soil,1,1,0,Yes,White,1,500
+Peltandra virginica,Arrow Arum,600,0,0,0.7,2,Saturated Soil,0,0,0,Yes,None,1,500
+Penstemon australis,Eustis Lake Beardtongue,1000000,1,1,0.7,2.6,Dry to Average Soil,1,1,0,Yes,Purple,1,500
+Penstemon digitalis,Tall White Beardtongue,400000,1,1,0.7,4,Dry to Average Soil,1,1,0,Yes,White,1,500
+Penstemon hirsutus,Hairy Beardtongue,3877000,1,1,0.7,2.9,Dry to Average Soil,1,1,0,Yes,Purple,10,500
+Penstemon laevigatus,Appalachian Beardtongue,350000,1,1,0.7,3.5,Dry to Average Soil,1,1,0,Yes,Purple,1,500
+Penstemon multiflorus,Manyflower Beardtongue,400000,1,1,0.7,3,Dry to Average Soil,1,1,0,Yes,White,1,500
+Penthorum sedoides,Ditch Stonecrop,45000000,1,0,0.7,3.3,Saturated Soil,0,1,1,Yes,Yellow,20,500
+Phacelia campanularia,California Bluebells,813000,1,0,0.7,1.7,Dry to Average Soil,0,1,0,Yes,Blue,1,500
+Poa compressa,Canada Bluegrass,2393000,0,0,0.7,2.3,Dry to Average Soil,0,0,0,No,None,10,500
+Poa palustris,Fowl Bluegrass,1900000,0,0,0.7,4.9,Consistently Moist Soil,0,0,0,Yes,None,10,500
+Pontederia cordata,Pickerelweed,5000,1,0,0.7,4.9,Saturated Soil,0,1,1,Yes,Purple,1,500
+Puccinellia nuttalliana,Nuttall's Alkaligrass,1000000,0,0,0.7,2.6,Consistently Moist Soil,0,0,0,Yes,None,1,500
+Pycnanthemum incanum,Hoary Mountain Mint,4000000,1,0,0.7,3.3,Dry to Average Soil,0,1,1,Yes,Purple,10,500
+Pycnanthemum muticum,Bigleaf Mountain Mint,4000000,1,0,0.7,3.9,Consistently Moist Soil,0,1,1,Yes,White,10,500
+Pycnanthemum tenuifolium,Narrow Leaved Mountain Mint,6048000,1,0,0.7,3.9,Consistently Moist Soil,0,1,1,Yes,White,15,500
+Pycnanthemum virginianum,Virginia Mountain Mint,4000000,1,0,0.7,3.3,Dry to Average Soil,0,1,1,Yes,White,10,500
+Ratibida columnaris,Red Prairie Clover (Mexican Red Hat),500000,1,1,0.7,3.9,Dry to Average Soil,0,1,1,Yes,Yellow,1,500
+Ratibida columnifera,Yellow Prairie Coneflower,500000,1,1,0.7,3.9,Dry to Average Soil,0,1,1,Yes,Yellow,1,500
+Ratibida pinnata,Gray Coneflower,427500,1,1,0.7,4.5,Dry to Average Soil,0,1,1,Yes,Yellow,1,500
+Rhexia mariana,Maryland Meadow Beauty,2000000,1,1,0.7,2.6,Consistently Moist Soil,0,1,1,Yes,White,10,500
+Rhexia virginica,Virginia Meadowbeauty,2000000,1,1,0.7,2.9,Consistently Moist Soil,0,1,1,Yes,Pink,10,500
+Rhynchospora globularis,Globe Beaksedge,1000000,0,1,0.7,3.9,Consistently Moist Soil,0,0,0,Yes,None,1,500
+Rudbeckia amplexicaulis,Clasping Coneflower,796000,1,1,0.7,2.5,Dry to Average Soil,0,1,1,Yes,Yellow,1,500
+Rudbeckia fulgida,Orange Coneflower,500000,1,1,0.7,3.9,Dry to Average Soil,0,1,1,Yes,Yellow,1,500
+Rudbeckia hirta,Black Eyed Susan,1576000,1,0,0.7,3.3,Dry to Average Soil,0,1,1,Yes,Yellow,10,500
+Rudbeckia laciniata,Green Coneflower,252000,1,1,0.7,6,Consistently Moist Soil,0,1,1,Yes,Yellow,1,500
+Rudbeckia mohrii,Mohr's Coneflower,1000000,1,1,0.7,4,Consistently Moist Soil,0,1,1,Yes,Yellow,1,500
+Rudbeckia nitida,Shiny Coneflower,544000,1,1,0.7,5,Consistently Moist Soil,1,0,0,Yes,Yellow,1,500
+Rudbeckia subtomentosa,Sweet Black Eyed Susan,712000,1,1,0.7,4,Dry to Average Soil,0,1,1,Yes,Yellow,1,500
+Rudbeckia triloba,Brown Eyed Susan,536000,1,1,0.7,3,Dry to Average Soil,0,1,1,Yes,Yellow,1,500
+Sagittaria latifolia,Duck Potato,67000,0,1,0.7,3.9,Saturated Soil,0,1,1,Yes,White,1,500
+Saururus cernuus,Lizard's Tail,100000,0,1,0.7,3.9,Saturated Soil,0,1,0,Yes,White,1,500
+Schizachyrium scoparium,Little Bluestem,200000,0,0,0.7,4.5,Dry to Average Soil,0,0,0,Yes,None,1,500
+Scirpus acutus,Hard Stemmed Bulrush,206400,0,1,0.7,5,Saturated Soil,0,0,0,Yes,None,1,500
+Scirpus atrovirens,Green Bulrush,11339800,0,1,0.7,3,Saturated Soil,0,0,0,Yes,None,20,500
+Scirpus cyperinus,Woolgrass,36000000,0,1,0.7,4.5,Saturated Soil,0,0,0,Yes,None,20,500
+Scirpus expansus,Wood Bulrush,10000000,0,1,0.7,6.5,Saturated Soil,0,0,0,Yes,None,20,500
+Scirpus pendulus,Brown Bulrush,30000000,0,1,0.7,4.9,Saturated Soil,0,0,0,Yes,None,20,500
+Scirpus polyphyllus,Many Leaved Bulrush,20000000,0,1,0.7,4.9,Saturated Soil,0,0,0,Yes,None,20,500
+Scirpus robustus,Sturdy Bulrush,200000,0,1,0.7,3.5,Saturated Soil,0,0,0,Yes,None,1,500
+Scirpus validus,Soft Stemmed Bulrush,496000,0,1,0.7,6,Saturated Soil,0,0,0,Yes,None,1,500
+Scutellaria incana,Hoary Skullcap,272000,1,1,0.7,3.9,Dry to Average Soil,0,1,0,Yes,Blue,1,500
+Senna hebecarpa,Wild Senna,22000,1,0,0.7,5,Consistently Moist Soil,0,1,1,Yes,Yellow,1,500
+Senna marilandica,Maryland Senna,20500,1,0,0.7,5,Consistently Moist Soil,0,1,0,Yes,Yellow,1,500
+Silene armeria,Catchfly,3547000,1,0,0.7,1.8,Dry to Average Soil,0,1,0,No,Pink,10,500
+Silphium asteriscus var. angustatum,Starry Rosinweed,20000,1,1,0.7,3,Dry to Average Soil,0,1,0,Yes,Yellow,1,500
+Silphium asteriscus var. laevicaule,Starry Rosinweed,20000,1,1,0.7,3,Dry to Average Soil,0,1,0,Yes,Yellow,1,500
+Silphium integrifolium,Prairie Rosinweed,41000,1,1,0.7,4.9,Dry to Average Soil,0,1,0,Yes,Yellow,1,500
+Silphium laciniatum,Compassplant,20000,1,1,0.7,6,Dry to Average Soil,0,1,1,Yes,Yellow,1,500
+Silphium perfoliatum,Cup Plant,100000,1,1,0.7,6,Consistently Moist Soil,0,1,1,Yes,Yellow,1,500
+Silphium terebinthaceum,Prairie Dock,17000,1,1,0.7,6,Dry to Average Soil,0,1,1,Yes,Yellow,1,500
+Silphium trifoliatum,Whorled Rosinweed,20800,1,1,0.7,6,Dry to Average Soil,0,1,1,Yes,Yellow,1,500
+Sisyrinchium angustifolium,Narrowleaf Blue Eyed Grass,757000,0,1,0.7,1.6,Consistently Moist Soil,1,1,0,Yes,Blue,1,500
+Solidago bicolor,White Goldenrod,700000,1,1,0.7,4,Dry to Average Soil,0,1,1,Yes,White,1,500
+Solidago caesia,Blue Stem Goldenrod,700000,1,1,0.7,4.2,Dry to Average Soil,0,1,1,Yes,Yellow,1,500
+Solidago canadensis,Canada Goldenrod,4600000,1,1,0.7,4.5,Dry to Average Soil,0,1,1,Yes,Yellow,10,500
+Solidago fistulosa,Pine Barren Goldenrod,700000,1,1,0.7,4,Consistently Moist Soil,0,1,1,Yes,Yellow,1,500
+Solidago flexicaulis,Zig Zag Goldenrod,1362000,1,1,0.7,3.9,Dry to Average Soil,0,1,1,Yes,Yellow,1,500
+Solidago juncea,Early Goldenrod,2538000,1,0,0.7,4,Dry to Average Soil,0,1,0,Yes,Yellow,10,500
+Solidago nemoralis,Gray Goldenrod,1008000,1,0,0.7,4.2,Dry to Average Soil,0,1,1,Yes,Yellow,1,500
+Solidago odora,Licorice Scented Goldenrod,2268000,1,0,0.7,3,Dry to Average Soil,0,1,1,Yes,Yellow,10,500
+Solidago patula,Roughleaf Goldenrod,700000,1,1,0.7,4.5,Consistently Moist Soil,0,1,1,Yes,Yellow,1,500
+Solidago riddellii,Riddell's Goldenrod,1544000,1,1,0.7,4,Consistently Moist Soil,0,1,1,Yes,Yellow,1,500
+Solidago rigida,Stiff Goldenrod,1009000,1,1,0.7,4,Dry to Average Soil,0,1,1,Yes,Yellow,1,500
+Solidago rugosa,Wrinkleleaf Goldenrod,1000000,1,0,0.7,4.5,Consistently Moist Soil,0,1,1,Yes,Yellow,1,500
+Solidago sempervirens,Seaside Goldenrod,700000,1,1,0.7,4,Consistently Moist Soil,0,1,0,Yes,Yellow,1,500
+Solidago speciosa,Showy Goldenrod,1340000,1,1,0.7,5.5,Dry to Average Soil,0,0,1,Yes,Yellow,1,500
+Solidago stricta,Wand Goldenrod,1000000,1,1,0.7,4,Consistently Moist Soil,0,1,1,Yes,Yellow,1,500
+Sorghastrum elliotti,Slender Indiangrass,175000,0,0,0.7,6,Saturated Soil,0,0,0,Yes,None,1,10
+Sorghastrum nutans,Indiangrass,175000,0,0,0.7,6,Dry to Average Soil,0,0,0,Yes,None,1,15
+Sorghastrum secundum,Lopsided Indiangrass,175000,0,0,0.7,4.5,Dry to Average Soil,0,0,0,Yes,None,1,25
+Sparganium americanum,Lesser Burreed,50000,0,1,0.7,3.3,Saturated Soil,0,0,0,Yes,None,1,500
+Sparganium eurycarpum,Giant Burreed,10000,0,1,0.7,4.2,Saturated Soil,0,0,0,Yes,None,1,500
+Spartina pectinata,Prairie Cordgrass,106000,0,1,0.7,7,Consistently Moist Soil,0,0,0,Yes,None,1,500
+Sporobolus asper,Rough Dropseed,760000,0,0,0.7,3,Dry to Average Soil,0,0,0,Yes,None,1,500
+Sporobolus cryptandrus,Sand Dropseed,5600000,0,0,0.7,3.3,Dry to Average Soil,0,0,0,Yes,None,15,500
+Sporobolus heterolepis,Prairie Dropseed,1200000,0,1,0.7,3.3,Dry to Average Soil,0,0,0,Yes,None,1,500
+Sporobolus junceus,Pineywoods Dropseed,1000000,0,0,0.7,3,Dry to Average Soil,0,0,0,Yes,None,1,500
+Thalictrum pubescens,Tall Meadow Rue,192000,1,1,0.7,5,Saturated Soil,0,1,0,Yes,White,1,500
+Tradescantia ohiensis,Ohio Spiderwort,128000,1,1,0.7,4.1,Dry to Average Soil,1,1,0,Yes,Blue,1,500
+Tradescantia subaspera,Zig Zag Spiderwort,128000,1,1,0.7,4,Dry to Average Soil,1,1,0,Yes,Blue,1,500
+Tradescantia virginiana,Virginia Spiderwort,175000,1,1,0.7,2.9,Dry to Average Soil,1,1,0,Yes,Blue,1,500
+Tridens flavus,Purpletop,465000,0,0,0.7,5.5,Dry to Average Soil,0,0,0,Yes,None,1,500
+Trifolium incarnatum,Crimson Clover,150000,1,0,0.7,2.6,Dry to Average Soil,1,1,0,No,Red,1,500
+Trifolium pratense,Red Clover,272000,1,0,0.7,2.6,Dry to Average Soil,1,1,0,No,Pink,1,500
+Trifolium repens,White Clover,776000,1,0,0.7,1,Dry to Average Soil,0,1,1,No,White,1,500
+Tripsacum dactyloides,Eastern Gamagrass,7000,0,1,0.7,3.8,Consistently Moist Soil,0,0,0,Yes,None,1,500
+Typha angustifolia,Narrowleaf Cattail,14000000,0,0,0.7,5,Saturated Soil,0,0,0,No,None,20,500
+Typha latifolia,Broadleaf Cattail,14000000,0,0,0.7,7,Saturated Soil,0,0,0,Yes,None,20,500
+Veratrum viride,False Hellebore,31780,1,1,0.7,5.5,Saturated Soil,0,1,0,Yes,Green,1,500
+Verbena hastata,Blue Vervain,1488000,1,0,0.7,4.9,Consistently Moist Soil,0,1,1,Yes,Purple,1,500
+Verbena stricta,Hoary Vervain,471000,1,0,0.7,3.9,Dry to Average Soil,0,1,1,Yes,Purple,1,500
+Verbena urticifolia,White Vervain,1008000,1,0,0.7,4.9,Consistently Moist Soil,0,1,1,Yes,White,1,500
+Verbesina alternifolia,Wingstem,145000,1,1,0.7,6.3,Consistently Moist Soil,0,1,1,Yes,Yellow,1,500
+Vernonia acaulis,Stemless Ironweed,300000,1,1,0.7,3.9,Dry to Average Soil,0,1,0,Yes,Purple,1,500
+Vernonia angustifolia,Tall Ironweed,300000,1,1,0.7,3.9,Dry to Average Soil,0,1,0,Yes,Purple,1,500
+Vernonia gigantea,Giant Ironweed,320000,1,1,0.7,6.5,Consistently Moist Soil,0,1,1,Yes,Purple,1,500
+Vernonia noveboracensis,New York Ironweed,300000,1,1,0.7,6.5,Consistently Moist Soil,0,1,1,Yes,Purple,1,500
+Veronicastrum virginicum,Culver's Root,7761000,1,0,0.7,5.5,Consistently Moist Soil,0,1,0,Yes,White,15,500
+Zizania aquatica,Wild Rice,11000,0,1,0.7,8,Saturated Soil,0,0,0,Yes,None,1,500
+Zizia aurea,Golden Alexanders,172000,1,1,0.7,3.3,Consistently Moist Soil,1,0,0,Yes,Yellow,1,500
