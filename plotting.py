@@ -100,6 +100,7 @@ def section_plot(data, stats, Season):
         y=alt.Y('ht:Q'),
         color=fcolor,
         shape=shape,
+        tooltip=['species:N', 'common_name:N'],
         opacity=opacity
     )    
     sectionelevation = (sectionstems+sectionflowers).properties(width=650, height=400).configure(background='#D3D3D3')

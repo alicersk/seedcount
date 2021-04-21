@@ -25,7 +25,7 @@ def write_header():
     st.markdown("""
     Seed Count is a tool for designing native (and adapted) seed mixes for use in the Mid-Atlantic, in an institutional, commercial, or residential setting.  
 
-    ###git g Using Seed Count
+    ### Using Seed Count
     - To begin, select the soil moisture level of your site, then enter your desired plant density for each species (in plants per square yard) 
     in the sidebar to the left.
 
